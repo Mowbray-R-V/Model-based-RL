@@ -1,4 +1,3 @@
-Materials used for my MS work on model based RL
 
 # 1. Tutorial
 
