@@ -1,3 +1,5 @@
+Materials used for my MS work on model based RL
+
 # 1. Tutorial
 
 [📘 Model-Based Methods Tutorial (ICML 2020)](https://sites.google.com/view/mbrl-tutorial)  
