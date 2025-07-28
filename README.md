@@ -12,3 +12,5 @@
 
 # Toolbox
 [ MBRL-Lib Meta AI](https://github.com/facebookresearch/mbrl-lib).
+
+[📘 MBRL-Lib: A Modular Library forModel-based Reinforcement Learning]([https://ai.meta.com/research/publications/algorithmic-framework-for-model-based-deep-reinforcement-learning-with-theoretical-guarantees/) ](https://arxiv.org/pdf/2104.10159).
