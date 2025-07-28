@@ -9,3 +9,6 @@
 # 1. Papers
 
 [📘 Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees – Meta AI](https://ai.meta.com/research/publications/algorithmic-framework-for-model-based-deep-reinforcement-learning-with-theoretical-guarantees/) 
+
+# Library
+[ MBRL-Lib Meta AI](https://github.com/facebookresearch/mbrl-lib).
