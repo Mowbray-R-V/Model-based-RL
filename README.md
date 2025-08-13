@@ -17,8 +17,8 @@
 
 
 # Model Calibration
-📘 A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
-📘 M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
+[📘 A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982]
+[📘 M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.]
 
 
 # Toolbox
