@@ -12,6 +12,8 @@
 
 # Uncertainity
 [📘Aleatoric and Epistemic Uncertainty in Machine Learning](https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf)  
+[📘Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - NIPS 2017]
+
 
 # Model Calibration
 
