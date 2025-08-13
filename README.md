@@ -11,13 +11,14 @@
 [📘 Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees – Meta AI](https://ai.meta.com/research/publications/algorithmic-framework-for-model-based-deep-reinforcement-learning-with-theoretical-guarantees/) 
 
 # Uncertainity
-[📘Aleatoric and Epistemic Uncertainty in Machine Learning](https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf)  
-📘Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - NIPS 2017 (faster replacemnent for Bayesain NNs)
+[📘Aleatoric and Epistemic Uncertainty in Machine Learning](https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf)    
+📘Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - NIPS 2017 (faster replacemnent for Bayesain NNs)    
+📘T. G. Dietterich. Ensemble methods in machine learning. In Multiple classifier systems. 2000 (Shows ensemles improve model prdictve performance)    
   
 
 
 # Model Calibration
-[📘 A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982] \\
+[📘 A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982]    
 [📘 M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.]
 
 
