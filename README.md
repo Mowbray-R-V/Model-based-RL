@@ -13,7 +13,7 @@
 # Uncertainity
 [📘Aleatoric and Epistemic Uncertainty in Machine Learning](https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf)    
 📘Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - NIPS 2017 (faster replacemnent for Bayesain NNs)    
-📘T. G. Dietterich. Ensemble methods in machine learning. In Multiple classifier systems. 2000 (Shows ensemles improve model prdictve performance)    
+📘T. G. Dietterich. Ensemble methods in machine learning. In Multiple classifier systems. 2000 (Shows ensembles (model combination) improve model prdictve performance)    
   
 
 
