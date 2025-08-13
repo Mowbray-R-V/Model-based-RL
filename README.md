@@ -12,10 +12,13 @@
 
 # Uncertainity
 [📘Aleatoric and Epistemic Uncertainty in Machine Learning](https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf)  
-[📘Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - NIPS 2017]
+📘Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - NIPS 2017
+  
 
 
 # Model Calibration
+📘 A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
+📘 M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
 
 
 # Toolbox
