@@ -11,7 +11,7 @@
 # Model based RL handling uncertainty
 
 Self-Supervised Exploration via Disagreement, ICML 2019    
-
+Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation    
 
 
 
