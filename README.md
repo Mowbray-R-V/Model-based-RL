@@ -24,6 +24,7 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 [📘Aleatoric and Epistemic Uncertainty in Machine Learning](https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf)    
 📘Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - NIPS 2017 (scalable replacemnent for Bayesain NNs)    
 📘T. G. Dietterich. Ensemble methods in machine learning. In Multiple classifier systems. 2000 (Shows ensembles (model combination) improve model prdictve performance)    
+📘Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, ICML 2016    
   
 
 
