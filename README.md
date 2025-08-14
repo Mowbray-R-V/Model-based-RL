@@ -15,7 +15,6 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 
 
 
-
 # 1. Return Bound Design Papers
 
 [📘 Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees – Meta AI](https://ai.meta.com/research/publications/algorithmic-framework-for-model-based-deep-reinforcement-learning-with-theoretical-guarantees/) 
@@ -26,7 +25,10 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 📘Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - NIPS 2017 (scalable replacemnent for Bayesain NNs)    
 📘T. G. Dietterich. Ensemble methods in machine learning. In Multiple classifier systems. 2000 (Shows ensembles (model combination) improve model prdictve performance)    
 📘Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, ICML 2016 (MC dropout: Approximates Bayesian inference for compute cheap predicitve uncertainty estimate)       
-  
+
+# Safe-RL    
+Embedding Safety into RL: A New Take on Trust Region Methods, ICML 2025 (C-TRPO)    
+
 
 
 # Model Calibration
