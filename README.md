@@ -26,7 +26,14 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 📘T. G. Dietterich. Ensemble methods in machine learning. In Multiple classifier systems. 2000 (Shows ensembles (model combination) improve model prdictve performance)    
 📘Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, ICML 2016 (MC dropout: Approximates Bayesian inference for compute cheap predicitve uncertainty estimate)       
 
-# Safe-RL    
+# Safe-RL Reviews    
+Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning - Annual Review 2021    
+A Review of Safe Reinforcement Learning: Methods, Theories, and Applications - IEEE Tpami, 2024     
+
+
+
+
+# Safe- RL 
 Embedding Safety into RL: A New Take on Trust Region Methods, ICML 2025 (C-TRPO)    
 
 
