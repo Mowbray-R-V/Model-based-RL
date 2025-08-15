@@ -27,14 +27,24 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 📘Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, ICML 2016 (MC dropout: Approximates Bayesian inference for compute cheap predicitve uncertainty estimate)       
 
 
-
-
 # Model Calibration
 [📘 A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982]    
 [📘 M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.]
+
+
+# Model free Benchmark Analysis
+Benchmarking Deep Reinforcement Learning for Continuous Control, ICML 2016    
+Reinforcement Learning with Deep Energy-Based Policies, ICML 2017    
+
 
 
 # Toolbox
 [ MBRL-Lib Meta AI](https://github.com/facebookresearch/mbrl-lib).
 
 [📘 MBRL-Lib: A Modular Library forModel-based Reinforcement Learning]([https://ai.meta.com/research/publications/algorithmic-framework-for-model-based-deep-reinforcement-learning-with-theoretical-guarantees/) ](https://arxiv.org/pdf/2104.10159).
+
+
+
+
+
+
