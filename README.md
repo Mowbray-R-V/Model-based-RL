@@ -28,6 +28,13 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 
 # Predictive Propgation during model rollout
 
+# Neat history - check realted works in 
+1. Modified PETS
+2. Trust the Model Where It Trusts Itself- Model-Based Actor-Critic with Uncertainty-Aware Rollout Adaption
+3. On Rollouts in Model-Based Reinforcement Learning
+
+
+
 
 # Model Calibration
 [📘 A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982]    
