@@ -26,6 +26,8 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 📘T. G. Dietterich. Ensemble methods in machine learning. In Multiple classifier systems. 2000 (Shows ensembles (model combination) improve model prdictve performance)    
 📘Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, ICML 2016 (MC dropout: Approximates Bayesian inference for compute cheap predicitve uncertainty estimate)       
 
+# Predictive Propgation during model rollout
+
 
 # Model Calibration
 [📘 A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982]    
