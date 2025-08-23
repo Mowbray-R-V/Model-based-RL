@@ -9,9 +9,10 @@ Understanding and Improving Model-Based Deep Reinforcement Learning | Jessica Ha
 
 
 # Model error 
-Investigating Compounding Prediction Errors in Learned Dynamics Models    
-PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias: accumulation of error systematically over time)    
-Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)    
+1. Investigating Compounding Prediction Errors in Learned Dynamics Models    
+2. PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias: accumulation of singel step model error systematically over time.)    
+3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
+4. 
 
 
 # Model based RL handling uncertainty
