@@ -8,7 +8,7 @@
 
 # Model error 
 Investigating Compounding Prediction Errors in Learned Dynamics Models    
-PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias)
+PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias)    
 Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)    
 
 
