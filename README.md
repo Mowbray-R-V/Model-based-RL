@@ -7,7 +7,8 @@
 [📘 Practical Model-Based Algorithms for Reinforcement Learning and Imitation Learning, with Theoretical Analyses – Tengyu Ma (Simons Institute, July 15, 2019)](https://simons.berkeley.edu/talks/practical-model-based-algorithms-reinforcement-learning-imitation-learning-theoretical)
 
 # Model error 
-Investigating Compounding Prediction Errors in Learned Dynamics Models
+Investigating Compounding Prediction Errors in Learned Dynamics Models    
+PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias)
 
 
 # Model based RL handling uncertainty
