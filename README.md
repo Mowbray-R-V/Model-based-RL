@@ -51,7 +51,7 @@ Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? S
 2. M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
 3. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020        
 4. Accurate Uncertainties for Deep Learning Using Calibrated Regression, ICML 2018
-5.  Near-optimal Regret Bounds for Reinforcement Learning,  NIPS 2009
+5.  Near-optimal Regret Bounds for Reinforcement Learning,  NIPS 2009 (Error radius is learned from data (concentration inequalities → Hoeffding, Bernstein, GP posteriors))      
 
 
 # 📘Exploration
