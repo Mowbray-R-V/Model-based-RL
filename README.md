@@ -47,8 +47,11 @@ Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? S
 
 
 # Model Calibration
-[📘 A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982]    
-[📘 M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.]    
+1. A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
+2. M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
+3. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020        
+4. Accurate Uncertainties for Deep Learning Using Calibrated Regression, ICML 2018      
+
 
 # 📘Exploration
 ## Naïve random exploration (best suited for tabular data, compute costly for large dimensional problem)
