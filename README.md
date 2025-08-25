@@ -48,7 +48,11 @@ Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? S
 
 # Model Calibration
 [📘 A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982]    
-[📘 M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.]
+[📘 M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.]    
+
+# Exploration
+1. ε-greedy → Watkins (1989), Sutton & Barto (1998/2018).
+2. Softmax/Boltzmann → Sutton & Barto, Kaelbling et al. (1996), Thrun (1992).    
 
 
 # Model free Benchmark Analysis
