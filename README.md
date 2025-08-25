@@ -50,10 +50,13 @@ Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? S
 [📘 A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982]    
 [📘 M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.]    
 
-# Exploration
+# 📘Exploration
 ## Naïve random exploration (best suited for tabular data, compute costly for large dimensional problem)
 1. ε-greedy → Watkins (1989), Sutton & Barto (1998/2018).
-2. Softmax/Boltzmann → Sutton & Barto, Kaelbling et al. (1996), Thrun (1992).    
+2. Softmax/Boltzmann → Sutton & Barto, Kaelbling et al. (1996), Thrun (1992).
+## Directed exploration 
+### Uncertainty-driven exploration focuses exploration where where the agent’s knowledge is ambiguous.
+1. 
 
 
 # Model free Benchmark Analysis
