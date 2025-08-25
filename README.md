@@ -51,6 +51,7 @@ Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? S
 [📘 M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.]    
 
 # Exploration
+## dd
 1. ε-greedy → Watkins (1989), Sutton & Barto (1998/2018).
 2. Softmax/Boltzmann → Sutton & Barto, Kaelbling et al. (1996), Thrun (1992).    
 
