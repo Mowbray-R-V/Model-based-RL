@@ -54,9 +54,10 @@ Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? S
 ## Naïve random exploration (best suited for tabular data, compute costly for large dimensional problem)
 1. ε-greedy → Watkins (1989), Sutton & Barto (1998/2018).
 2. Softmax/Boltzmann → Sutton & Barto, Kaelbling et al. (1996), Thrun (1992).
-## Directed exploration 
-### Uncertainty-driven exploration focuses exploration where where the agent’s knowledge is ambiguous.
-1. 
+## Directed exploration- Uncertainty-driven exploration focuses exploration where where the agent’s knowledge is ambiguous.
+1. Optimism in the Face of Uncertainty (OFU)
+2. Posterior (Thompson) Sampling
+3. Intrinsic Motivation / Bonus-Based
 
 
 # Model free Benchmark Analysis
