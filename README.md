@@ -78,9 +78,8 @@ Reinforcement Learning with Deep Energy-Based Policies, ICML 2017
 
 
 # 📘Toolbox
-[ MBRL-Lib Meta AI](https://github.com/facebookresearch/mbrl-lib).
-
-[📘 MBRL-Lib: A Modular Library forModel-based Reinforcement Learning]([https://ai.meta.com/research/publications/algorithmic-framework-for-model-based-deep-reinforcement-learning-with-theoretical-guarantees/) ](https://arxiv.org/pdf/2104.10159).
+1. [MBRL-Lib Meta AI](https://github.com/facebookresearch/mbrl-lib).
+2. [MBRL-Lib: A Modular Library forModel-based Reinforcement Learning]([https://ai.meta.com/research/publications/algorithmic-framework-for-model-based-deep-reinforcement-learning-with-theoretical-guarantees/) ](https://arxiv.org/pdf/2104.10159).
 
 
 
