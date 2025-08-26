@@ -26,7 +26,7 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 
 [📘 Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees – Meta AI](https://ai.meta.com/research/publications/algorithmic-framework-for-model-based-deep-reinforcement-learning-with-theoretical-guarantees/) 
 
-# 📘Predictive Uncertainity Estimation
+# 📘Predictive Uncertainty Estimation
 1. Aleatoric and Epistemic Uncertainty in Machine Learning](https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf
 2. Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods, Machine Learning 2021, Springer Nature    
 3. Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - NIPS 2017 (scalable replacemnent for Bayesain NNs, Spread across ensemble predictions → epistemic| Each network’s predicted variance → aleatoric.)
