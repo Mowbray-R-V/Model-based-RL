@@ -4,7 +4,7 @@
 2. [Model-Based RL Blog (Georgiev, 2023)](https://www.imgeorgiev.com/2023-11-16-mbrl/)  
 3. [CS 4789/5789 – Lec10 by Sarah Dean](https://vod.video.cornell.edu/media/CS+4789A+Lecture+10/1_ymki7oc8)  
 4. [Practical Model-Based Algorithms for Reinforcement Learning and Imitation Learning, with Theoretical Analyses – Tengyu Ma (Simons Institute, July 15, 2019)](https://simons.berkeley.edu/talks/practical-model-based-algorithms-reinforcement-learning-imitation-learning-theoretical)    
-5. [Understanding and Improving Model-Based Deep Reinforcement Learning, Jessica Hamrick] (https://www.youtube.com/watch?v=o9ji8jAcSx4)
+5. [Understanding and Improving Model-Based Deep Reinforcement Learning, Jessica Hamrick](https://www.youtube.com/watch?v=o9ji8jAcSx4)
 6. [The challenges of model-based reinforcement learning and how to overcome them - Csaba Szepesvári](https://www.youtube.com/watch?v=-Y-fHsPIQ_Q)
 7. [Model-Based Reinforcement Learning: Theory and Practice Michael Janner](https://bair.berkeley.edu/blog/2019/12/12/mbpo/)
 8. [Awesome MBRL](https://github.com/opendilab/awesome-model-based-RL)    
