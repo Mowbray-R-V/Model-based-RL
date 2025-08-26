@@ -34,7 +34,7 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
   
 4. T. G. Dietterich. Ensemble methods in machine learning. In Multiple classifier systems. 2000 (Shows ensembles (model combination) improve model prdictve performance)
 5. Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, ICML 2016 (MC dropout: Approximates Bayesian inference for compute cheap predicitve uncertainty estimate. Handles only epsitemic uncertainty)
-6. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? , NIPS 2017 (they combine MC dropout for epistemic + learned variance head for aleatoric)    
+6. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? , NIPS 2017 (extended the MC dropout approach to also learn aleatoric uncertainty via a variance output head, making it possible to quantify both epistemic + aleatoric in a single model.)    
 7. Yarin Gal. Uncertainty in deep learning. PhD Thesis, PhD thesis, University of Cambridge, 2016.
 8. Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? Structural Safety,  31(2):105–112, 2009.    
   
