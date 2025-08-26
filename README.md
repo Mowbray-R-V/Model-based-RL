@@ -69,9 +69,15 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 3. Intrinsic Motivation / Bonus-Based
 ## Optimistic exploration papers
 1. [The need for Explicit Exploration in Model-based Reinforcement Learning](https://berkenkamp.me/blog/2020-12-06-mbrl-exploration/#Mania2019Certainty)
-2. [H-UCRL]()
-3. [UCRL]()
-4. []()
+2. H-UCRL - Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020
+3. UCRL - Near-optimal Regret Bounds for Reinforcement Learning, JMLR 2010 (Tabular MDPS)
+4. R-Max - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning, JMLR 2023 (Tabular MDPS)
+5. GP-UCRL - Online Learning in Kernelized Markov Decision Processes
+6. Regret Bounds for the Adaptive Control of Linear Quadratic Systems, JMLR 2011    
+7. Trust-region UCRL meta-algorithm (SLBO) - Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019
+8. Optimism-driven exploration for nonlinear systems - ICRA, 2015 (OFU based work extended for deep MBRL)
+9. Safe Exploration in Reinforcement Learning: Theory and Applications in Robotics
+
 
 ## Optimistic/Pessimistic safe exploration papers
 1. [DOPE]()
