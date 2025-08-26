@@ -72,11 +72,12 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 2. H-UCRL - Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020
 3. UCRL - Near-optimal Regret Bounds for Reinforcement Learning, JMLR 2010 (Tabular MDPS)
 4. R-Max - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning, JMLR 2023 (Tabular MDPS)
-5. GP-UCRL - Online Learning in Kernelized Markov Decision Processes
+5. GP-UCRL - Online Learning in Kernelized Markov Decision Processes (continuous space)      
 6. Regret Bounds for the Adaptive Control of Linear Quadratic Systems, JMLR 2011    
 7. Trust-region UCRL meta-algorithm (SLBO) - Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019
 8. Optimism-driven exploration for nonlinear systems - ICRA, 2015 (OFU based work extended for deep MBRL)
 9. Safe Exploration in Reinforcement Learning: Theory and Applications in Robotics
+10. Areas to explore: Computational tractability of strict OFU, combining OFU with safety guarantees
 
 
 ## Optimistic/Pessimistic safe exploration papers
