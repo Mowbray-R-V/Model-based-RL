@@ -10,23 +10,21 @@
 8. [Awesome MBRL](https://github.com/opendilab/awesome-model-based-RL)    
 
 
-# Model error 
+# 📘Model error 
 1. Investigating Compounding Prediction Errors in Learned Dynamics Models    
 2. PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias: accumulation of singel step model error systematically over time.)    
 3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
 4. 
 
 
-# Model based RL handling uncertainty
-
-Self-Supervised Exploration via Disagreement, ICML 2019    
-Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation    
-
+# 📘Uncertainty in MBRL
+1. Self-Supervised Exploration via Disagreement, ICML 2019    
+2. Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation    
 
 
-# 1. Return Bound Design Papers
 
-[📘 Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees – Meta AI](https://ai.meta.com/research/publications/algorithmic-framework-for-model-based-deep-reinforcement-learning-with-theoretical-guarantees/) 
+# 📘Return Bound Design
+1. Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees(SLBO) – Meta AI, ICLR 2019
 
 # 📘Predictive Uncertainty Estimation
 1. Aleatoric and Epistemic Uncertainty in Machine Learning - https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf
@@ -41,9 +39,9 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 8. Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? Structural Safety,  31(2):105–112, 2009.    
   
 
-# Predictive Propgation during model rollout
+# 📘Predictive Propgation during model rollout
 
-# Neat history - check related works in 
+# 📘Neat history - check related works in 
 1. Modified PETS
 2. Trust the Model Where It Trusts Itself- Model-Based Actor-Critic with Uncertainty-Aware Rollout Adaption
 3. On Rollouts in Model-Based Reinforcement Learning
@@ -51,7 +49,7 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 
 
 
-# Model Calibration
+# 📘Model Calibration
 1. A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
 2. M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
 3. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020        
@@ -87,9 +85,9 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 
 
 
-# Model free Benchmark Analysis
-Benchmarking Deep Reinforcement Learning for Continuous Control, ICML 2016    
-Reinforcement Learning with Deep Energy-Based Policies, ICML 2017    
+# 📘Benchmark Analysis
+1. Benchmarking Deep Reinforcement Learning for Continuous Control, ICML 2016    
+2. Reinforcement Learning with Deep Energy-Based Policies, ICML 2017    
 
 
 
