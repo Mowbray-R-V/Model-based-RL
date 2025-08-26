@@ -60,6 +60,7 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 
 
 # 📘Exploration
+1. [Exploration and Exploitation-10703 Deep Reinforcement Learning	and	Control](https://www.cs.cmu.edu/~rsalakhu/10703/Lectures/Lecture_Exploration.pdf)    
 ## Naïve random exploration (best suited for tabular data, compute costly for large dimensional problem)
 1. ε-greedy → Watkins (1989), Sutton & Barto (1998/2018).
 2. Softmax/Boltzmann → Sutton & Barto, Kaelbling et al. (1996), Thrun (1992).
@@ -77,9 +78,8 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 7. Trust-region UCRL meta-algorithm (SLBO) - Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019
 8. Optimism-driven exploration for nonlinear systems - ICRA, 2015 (OFU based work extended for deep MBRL)
 9. Safe Exploration in Reinforcement Learning: Theory and Applications in Robotics
-10. Areas to explore: Computational tractability of strict OFU, combining OFU with safety guarantees
-
-
+10. The Many Faces of Optimism: a Unifying Approach, ICML 2008    
+11. Areas to explore: Computational tractability of strict OFU, combining OFU with safety guarantees
 ## Optimistic/Pessimistic safe exploration papers
 1. [DOPE]()
 2. [optCMDP]()
