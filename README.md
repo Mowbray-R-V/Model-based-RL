@@ -63,8 +63,10 @@ Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Explo
 2. Softmax/Boltzmann → Sutton & Barto, Kaelbling et al. (1996), Thrun (1992).
 ## Directed exploration- Uncertainty-driven exploration focuses exploration where where the agent’s knowledge is ambiguous.
 1. Optimism in the Face of Uncertainty (OFU)
+   The need for Explicit Exploration in Model-based Reinforcement Learning - https://berkenkamp.me/blog/2020-12-06-mbrl-exploration/#Mania2019Certainty 
 2. Posterior (Thompson) Sampling
 3. Intrinsic Motivation / Bonus-Based
+
 
 
 # Model free Benchmark Analysis
