@@ -79,9 +79,15 @@
 10. The Many Faces of Optimism: a Unifying Approach, ICML 2008    
 11. Areas to explore: Computational tractability of strict OFU, combining OFU with safety guarantees
 ## Optimistic/Pessimistic safe exploration papers
-1. [DOPE]()
-2. [optCMDP]()
-3. []()
+1. DOPE: Doubly Optimistic and Pessimistic Exploration for Safe Reinforcement Learning
+2. A Policy Gradient Primal-Dual Algorithm for Constrained MDPs with Uniform PAC Guarantees
+3. Safe Reinforcement Learning for Constrained Markov Decision Processes with Stochastic Stopping Time, CDC 2024
+4. A safe exploration approach to constrained Markov decision processes
+5. Ensuring Safety in an Uncertain Environment: Constrained MDPs via Stochastic Thresholds
+6. A Constructive Review of Safe Exploration in Reinforcement Learning
+7. Constrained Reinforcement Learning Under Model Mismatch
+8. OptCMDP: Exploration-Exploitation in Constrained MDPs
+9. Optless: Learning Policies with Zero or Bounded Constraint Violation for Constrained MDPs, ICML 2021   
 
 
 
