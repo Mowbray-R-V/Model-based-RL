@@ -7,7 +7,8 @@
 5. [Understanding and Improving Model-Based Deep Reinforcement Learning, Jessica Hamrick](https://www.youtube.com/watch?v=o9ji8jAcSx4)
 6. [The challenges of model-based reinforcement learning and how to overcome them - Csaba Szepesvári](https://www.youtube.com/watch?v=-Y-fHsPIQ_Q)
 7. [Model-Based Reinforcement Learning: Theory and Practice Michael Janner](https://bair.berkeley.edu/blog/2019/12/12/mbpo/)
-8. [Awesome MBRL](https://github.com/opendilab/awesome-model-based-RL)    
+8. [Awesome MBRL](https://github.com/opendilab/awesome-model-based-RL)
+9. [Bayesian Reinforcement Learning](https://bayesianrl.github.io/)
 
 
 # 📘Model error 
