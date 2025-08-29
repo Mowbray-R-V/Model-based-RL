@@ -68,17 +68,18 @@
 2. Posterior (Thompson) Sampling
 3. Intrinsic Motivation / Bonus-Based
 ## Optimistic exploration papers
-1. [The need for Explicit Exploration in Model-based Reinforcement Learning](https://berkenkamp.me/blog/2020-12-06-mbrl-exploration/#Mania2019Certainty)
-2. H-UCRL - Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020
-3. UCRL - Near-optimal Regret Bounds for Reinforcement Learning, JMLR 2010 (Tabular MDPS)
-4. R-Max - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning, JMLR 2023 (Tabular MDPS)
-5. GP-UCRL - Online Learning in Kernelized Markov Decision Processes (continuous space)      
-6. Regret Bounds for the Adaptive Control of Linear Quadratic Systems, JMLR 2011    
-7. Trust-region UCRL meta-algorithm (SLBO) - Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019
-8. Optimism-driven exploration for nonlinear systems - ICRA, 2015 (OFU based work extended for deep MBRL)
-9. Safe Exploration in Reinforcement Learning: Theory and Applications in Robotics
-10. The Many Faces of Optimism: a Unifying Approach, ICML 2008    
-11. Areas to explore: Computational tractability of strict OFU, combining OFU with safety guarantees
+1. OFU -  When uncertain about the environment, act as if the most optimistic plausible model (consistent with observed data) is true.    
+2. [The need for Explicit Exploration in Model-based Reinforcement Learning](https://berkenkamp.me/blog/2020-12-06-mbrl-exploration/#Mania2019Certainty)
+3. H-UCRL - Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020
+4. UCRL - Near-optimal Regret Bounds for Reinforcement Learning, JMLR 2010 (Tabular MDPS)
+5. R-Max - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning, JMLR 2023 (Tabular MDPS)
+6. GP-UCRL - Online Learning in Kernelized Markov Decision Processes (continuous space)      
+7. Regret Bounds for the Adaptive Control of Linear Quadratic Systems, JMLR 2011    
+8. Trust-region UCRL meta-algorithm (SLBO) - Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019
+9. Optimism-driven exploration for nonlinear systems - ICRA, 2015 (OFU based work extended for deep MBRL)
+10. Safe Exploration in Reinforcement Learning: Theory and Applications in Robotics
+11. The Many Faces of Optimism: a Unifying Approach, ICML 2008    
+12. Areas to explore: Computational tractability of strict OFU, combining OFU with safety guarantees
 ## Optimistic/Pessimistic safe exploration papers
 1. DOPE: Doubly Optimistic and Pessimistic Exploration for Safe Reinforcement Learning
 2. A Policy Gradient Primal-Dual Algorithm for Constrained MDPs with Uniform PAC Guarantees
