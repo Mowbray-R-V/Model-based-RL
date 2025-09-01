@@ -89,7 +89,15 @@
 6. A Constructive Review of Safe Exploration in Reinforcement Learning
 7. Constrained Reinforcement Learning Under Model Mismatch
 8. OptCMDP: Exploration-Exploitation in Constrained MDPs
-9. Optless: Learning Policies with Zero or Bounded Constraint Violation for Constrained MDPs, ICML 2021   
+9. Optless: Learning Policies with Zero or Bounded Constraint Violation for Constrained MDPs, ICML 2021
+
+## OFU for linear models
+1. In classical Optimism in the Face of Uncertainty (OFU) (like in tabular RL or linear models), you maintain confidence sets around your estimated model (transition probabilities or dynamics).
+2. Then you pick the “most optimistic” model in that set — i.e., the one that maximizes the reward estimate but is still plausible.
+3. This requires explicit uncertainty quantification (e.g., concentration inequalities, confidence ellipsoids).
+## OFU fro non-linear/high dimensional models
+1.For nonlinear dynamics (like neural networks as dynamics models), explicit uncertainty quantification is intractable:      
+2. You can’t get simple closed-form confidence sets. Bounds like Hoeffding/Azuma are too loose. Deep models don’t behave linearly, so confidence regions are not ellipsoids but highly irregular.    
 
 
 
