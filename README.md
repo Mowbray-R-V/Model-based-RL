@@ -111,7 +111,9 @@
 1. [MBRL-Lib Meta AI](https://github.com/facebookresearch/mbrl-lib). [Paper : MBRL-Lib: A Modular Library forModel-based Reinforcement Learning](https://arxiv.org/pdf/2104.10159)
 2. [DI-engine](https://github.com/opendilab/DI-engine)
 3. [Ray RLlib](https://docs.ray.io/en/latest/rllib/index.html)
-4. [Torch RL](https://docs.pytorch.org/rl/stable/index.html#)    
+4. [Torch RL](https://docs.pytorch.org/rl/stable/index.html#)
+5. [GPytorch](https://gpytorch.ai/)
+6. 
 
 
 
