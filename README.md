@@ -99,6 +99,8 @@
 1.For nonlinear dynamics (like neural networks as dynamics models), explicit uncertainty quantification is intractable:      
 2. You can’t get simple closed-form confidence sets. Bounds like Hoeffding/Azuma are too loose. Deep models don’t behave linearly, so confidence regions are not ellipsoids but highly irregular.    
 
+# Bootstrap sampling    
+1. [Bootstrap resampling](https://towardsdatascience.com/bootstrap-resampling-2b453bb036ec/)    
 
 
 # 📘Benchmark Analysis
