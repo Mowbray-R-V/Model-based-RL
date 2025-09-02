@@ -53,9 +53,9 @@
 # 📘Model Calibration
 1. A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
 2. M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
-3. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020        
+3.   Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020        
 4. Accurate Uncertainties for Deep Learning Using Calibrated Regression, ICML 2018
-5.  Near-optimal Regret Bounds for Reinforcement Learning,  NIPS 2009 (Error radius is learned from data (concentration inequalities → Hoeffding, Bernstein, GP posteriors))      
+5. Near-optimal Regret Bounds for Reinforcement Learning,  NIPS 2009 (Error radius is learned from data (concentration inequalities → Hoeffding, Bernstein, GP posteriors))      
 
 
 # 📘Exploration
@@ -76,7 +76,7 @@
 6. GP-UCRL - Online Learning in Kernelized Markov Decision Processes (continuous space)      
 7. Regret Bounds for the Adaptive Control of Linear Quadratic Systems, JMLR 2011    
 8. Trust-region UCRL meta-algorithm (SLBO) - Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019
-9. Optimism-driven exploration for nonlinear systems - ICRA, 2015 (OFU based work extended for deep MBRL)
+9. Optimism-driven exploration for nonlinear systems - ICRA, 2015 (First extension of UCRL-style optimism to continuous nonlinear systems via generalized linear models.)
 10. Safe Exploration in Reinforcement Learning: Theory and Applications in Robotics
 11. The Many Faces of Optimism: a Unifying Approach, ICML 2008    
 12. Areas to explore: Computational tractability of strict OFU, combining OFU with safety guarantees
@@ -100,7 +100,13 @@
 2. You can’t get simple closed-form confidence sets. Bounds like Hoeffding/Azuma are too loose. Deep models don’t behave linearly, so confidence regions are not ellipsoids but highly irregular.    
 
 # Bootstrap sampling    
-1. [Bootstrap resampling](https://towardsdatascience.com/bootstrap-resampling-2b453bb036ec/)    
+1. [Bootstrap resampling](https://towardsdatascience.com/bootstrap-resampling-2b453bb036ec/)
+
+
+# Key papers
+1. Efficient Model-Based Reinforcement Learning through Optimistic Thompson Sampling, ICLR 2025
+2. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning (H-UCRL), NIPS 2020
+3. 
 
 
 # 📘Benchmark Analysis
