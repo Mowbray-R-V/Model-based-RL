@@ -106,7 +106,7 @@
 # Key papers
 1. Efficient Model-Based Reinforcement Learning through Optimistic Thompson Sampling, ICLR 2025
 2. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning (H-UCRL), NIPS 2020
-3. Optimism-Driven Exploration for Nonlinear Systems, ICRA 2015 (Extends OFU for nonlinear continuous discrete systems)
+3. Optimism-Driven Exploration for Nonlinear Systems, ICRA 2015 (Extends OFU for nonlinear continuous systems)
 4. 
 5. 
 6. 
