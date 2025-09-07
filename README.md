@@ -108,10 +108,11 @@
 2. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning (H-UCRL), NIPS 2020    
 3. Optimism-Driven Exploration for Nonlinear Systems, ICRA 2015 (Extends OFU for nonlinear continuous systems)
 4. Combining Pessimism with Optimism for Robust and Efficient Model-Based Deep Reinforcement Learning (RH-UCRL), ICML 2021
-5.     
-6. 
+5. DOPE: Doubly Optimistic and Pessimistic Exploration for Safe Reinforcement Learning, NIPS 2022
+6.     
 7. 
 8. 
+9. 
 
 
 # 📘Benchmark Analysis
@@ -126,8 +127,9 @@
 3. [Ray RLlib](https://docs.ray.io/en/latest/rllib/index.html)
 4. [Torch RL](https://docs.pytorch.org/rl/stable/index.html#)
 5. [GPytorch](https://gpytorch.ai/)
-6. 
 
+# TO-DO
+1. [Check quan vuong works](https://github.com/quanvuong/paper_summaries/tree/master)
 
 
 
