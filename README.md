@@ -129,7 +129,7 @@
 5. [GPytorch](https://gpytorch.ai/)
 
 # TO-DO
-1. [Check quan vuong works](https://github.com/quanvuong/paper_summaries/tree/master)
+1. [Check quan vuong work](https://github.com/quanvuong/paper_summaries/tree/master)
 
 
 
