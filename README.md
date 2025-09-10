@@ -47,9 +47,6 @@
 2. Trust the Model Where It Trusts Itself- Model-Based Actor-Critic with Uncertainty-Aware Rollout Adaption
 3. On Rollouts in Model-Based Reinforcement Learning
 
-
-
-
 # 📘Model Calibration
 1. A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
 2. M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
@@ -57,8 +54,35 @@
 4. Accurate Uncertainties for Deep Learning Using Calibrated Regression, ICML 2018
 5. Near-optimal Regret Bounds for Reinforcement Learning,  NIPS 2009 (Error radius is learned from data (concentration inequalities → Hoeffding, Bernstein, GP posteriors))      
 
+# SafeRL
+1. Javier Garc´ıa, Fern, and o Fern´andez. A comprehensive survey on safe reinforcement learning. JMLR, 2015.
+2. Lukas Brunke, Melissa Greeff, Adam W Hall, Zhaocong Yuan, Siqi Zhou, Jacopo Panerati, and Angela P Schoellig. Safe learning in robotics: From learning-based control to safe reinforcement
+ learning. Annual Review of Control, Robotics, and Autonomous Systems, 2022.
 
-# 📘Exploration
+
+
+# Constrained MDPs
+1.  E. Altman. Constrained Markov Decision Processes. Chapman and Hall, 1999.
+## Discrete state-action space
+1. Yonathan Efroni, Shie Mannor, and Matteo Pirotta. Exploration-exploitation in constrained mdps.
+2. Sharan Vaswani, Lin Yang, and Csaba Szepesvari. Near-optimal sample complexity bounds for constrained mdps. NeurIPS, 2022
+3. Dongsheng Ding, Kaiqing Zhang, Jiali Duan, Tamer Bas¸ar, and Mihailo R Jovanovi´c. Convergence and sample complexity of natural policy gradient primal-dual methods for constrained mdps.
+4. Adrian M¨uller, Pragnya Alatur, Volkan Cevher, Giorgia Ramponi, and Niao He. Truly no-regret learning in constrained mdps.
+## Continuous state-action space
+1. Joshua Achiam, David Held, Aviv Tamar, and Pieter Abbeel. Constrained policy optimization. ICML, 2017
+2. Aivar Sootla, Alexander I Cowen-Rivers, Taher Jafferjee, Ziyan Wang, David H Mguni, Jun Wang, and Haitham Ammar. Saut´e rl: Almost surely safe reinforcement learning using state augmentation.
+ In ICML, 2022.
+3. Adam Stooke, Joshua Achiam, and Pieter Abbeel. Responsive safety in reinforcement learning by PID lagrangian methods. In ICML, 2020.
+4. Tengyu Xu, Yingbin Liang, and Guanghui Lan. Crpo: A new approach for safe reinforcement learning with convergence guarantee. In ICML, 2021.
+5. Zuxin Liu, Zhepeng Cen, Vladislav Isenbaev, Wei Liu, Steven Wu, Bo Li, and Ding Zhao. Constrained variational policy optimization for safe reinforcement learning. In ICML, 2022.
+6. Yarden As, Ilnura Usmanova, Sebastian Curi, and Andreas Krause. Constrained policy optimization via bayesian world models. ICLR, 2022.
+7.  Weidong Huang, Jiaming Ji, Chunhe Xia, Borong Zhang, and Yaodong Yang. Safedreamer: Safe reinforcement learning with world models. In ICLR, 2024.
+8.   
+
+
+
+
+# 📘E    xploration
 1. [Exploration and Exploitation-10703 Deep Reinforcement Learning	and	Control](https://www.cs.cmu.edu/~rsalakhu/10703/Lectures/Lecture_Exploration.pdf)    
 ## Naïve random exploration (best suited for tabular data, compute costly for large dimensional problem)
 1. ε-greedy → Watkins (1989), Sutton & Barto (1998/2018).
