@@ -71,32 +71,27 @@
 3. Dongsheng Ding, Kaiqing Zhang, Jiali Duan, Tamer Bas¸ar, and Mihailo R Jovanovi´c. Convergence and sample complexity of natural policy gradient primal-dual methods for constrained mdps.
 4. Adrian M¨uller, Pragnya Alatur, Volkan Cevher, Giorgia Ramponi, and Niao He. Truly no-regret learning in constrained mdps.
 ## Continuous state-action space
-# Deep model based methods (pros: sample efficient, cons: need to learn well calibrated model)
-1. 
-2. **ActSafe: Active Exploration with Safety Constraints for Reinforcement Learning**, ICLR 2025
+# Deep model based approach (pros: sample efficient, cons: need to learn well calibrated model)
+1. Safe Model-based Reinforcement Learning with Stability Guarantees, NIPS 2017
+2. ActSafe: Active Exploration with Safety Constraints for Reinforcement Learning, ICLR 2025
 3. SafeDreamer: Safe Reinforcement Learning with World Models, ICLR 2024
-4. 
-5. 
-6.
-7.
-8.
-9.
-9.
-10.
-11. Joshua Achiam, David Held, Aviv Tamar, and Pieter Abbeel. Constrained policy optimization. ICML, 2017
-12. Aivar Sootla, Alexander I Cowen-Rivers, Taher Jafferjee, Ziyan Wang, David H Mguni, Jun Wang, and Haitham Ammar. Saut´e rl: Almost surely safe reinforcement learning using state augmentation.
- In ICML, 2022.
-13. Adam Stooke, Joshua Achiam, and Pieter Abbeel. Responsive safety in reinforcement learning by PID lagrangian methods. In ICML, 2020.
-14. Tengyu Xu, Yingbin Liang, and Guanghui Lan. Crpo: A new approach for safe reinforcement learning with convergence guarantee. In ICML, 2021.
-15. Zuxin Liu, Zhepeng Cen, Vladislav Isenbaev, Wei Liu, Steven Wu, Bo Li, and Ding Zhao. Constrained variational policy optimization for safe reinforcement learning. In ICML, 2022.
-16. Yarden As, Ilnura Usmanova, Sebastian Curi, and Andreas Krause. Constrained policy optimization via bayesian world models. ICLR, 2022.
-17.  Weidong Huang, Jiaming Ji, Chunhe Xia, Borong Zhang, and Yaodong Yang. Safedreamer: Safe reinforcement learning with world models. In ICLR, 2024.
-18.   
+## Lagrangian based approach  (pros: , cons: Lagrange multiplier may not work well in practice due to oscillations and overshoot)
+1. Constrained policy optimization. ICML, 2017
+2. Saut´e rl: Almost surely safe reinforcement learning using state augmentation, ICML, 2022.
+3. Responsive safety in reinforcement learning by PID lagrangian methods. In ICML, 2020.
+## Penalty based approaches (pros: Simple, stable, strong constraint sastisfcation, cons: Leads to suboptimal policies)
+1. Ipo: Interior-point policy optimization under constraints, AAAI 2020
+2. Penalized proximal policy optimization for safe reinforcement learning,
+3. Log barriers for safe black-box optimization with application to safe reinforcement learning, JMLR 2024
+4. Constrained reinforcement learning with smoothed log barrier function,
+5. P2bpo: Permeable penalty barrier-based policy optimization for safe rl, AAAI 2024
+## Trust region based methods (pros: , cons: Oscillate around the constraint boundary with high overshoot)    
+1.  Constrained policy optimization. ICML, 2017
+2.  Projection-based constrained policy optimization
+3.  Embedding Safety into RL: A New Take on Trust Region Methods, ICML 2025    
 
 
-
-
-# 📘E    xploration
+# 📘Exploration
 1. [Exploration and Exploitation-10703 Deep Reinforcement Learning	and	Control](https://www.cs.cmu.edu/~rsalakhu/10703/Lectures/Lecture_Exploration.pdf)    
 ## Naïve random exploration (best suited for tabular data, compute costly for large dimensional problem)
 1. ε-greedy → Watkins (1989), Sutton & Barto (1998/2018).
