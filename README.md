@@ -85,7 +85,7 @@
 3. Log barriers for safe black-box optimization with application to safe reinforcement learning, JMLR 2024
 4. Constrained reinforcement learning with smoothed log barrier function,
 5. P2bpo: Permeable penalty barrier-based policy optimization for safe rl, AAAI 2024
-### Trust region based methods (pros: , cons: Oscillate around the constraint boundary with high overshoot)    
+### Trust region based methods (pros: , cons: Oscillates around the constraint boundary with high overshoot)    
 1.  Constrained policy optimization. ICML, 2017
 2.  Projection-based constrained policy optimization
 3.  Embedding Safety into RL: A New Take on Trust Region Methods, ICML 2025    
