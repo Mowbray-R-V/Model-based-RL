@@ -71,15 +71,27 @@
 3. Dongsheng Ding, Kaiqing Zhang, Jiali Duan, Tamer Bas¸ar, and Mihailo R Jovanovi´c. Convergence and sample complexity of natural policy gradient primal-dual methods for constrained mdps.
 4. Adrian M¨uller, Pragnya Alatur, Volkan Cevher, Giorgia Ramponi, and Niao He. Truly no-regret learning in constrained mdps.
 ## Continuous state-action space
-1. Joshua Achiam, David Held, Aviv Tamar, and Pieter Abbeel. Constrained policy optimization. ICML, 2017
-2. Aivar Sootla, Alexander I Cowen-Rivers, Taher Jafferjee, Ziyan Wang, David H Mguni, Jun Wang, and Haitham Ammar. Saut´e rl: Almost surely safe reinforcement learning using state augmentation.
+# Deep model based methods (pros: sample efficient, cons: need to learn well calibrated model)
+1. 
+2. **ActSafe: Active Exploration with Safety Constraints for Reinforcement Learning**, ICLR 2025
+3. SafeDreamer: Safe Reinforcement Learning with World Models, ICLR 2024
+4. 
+5. 
+6.
+7.
+8.
+9.
+9.
+10.
+11. Joshua Achiam, David Held, Aviv Tamar, and Pieter Abbeel. Constrained policy optimization. ICML, 2017
+12. Aivar Sootla, Alexander I Cowen-Rivers, Taher Jafferjee, Ziyan Wang, David H Mguni, Jun Wang, and Haitham Ammar. Saut´e rl: Almost surely safe reinforcement learning using state augmentation.
  In ICML, 2022.
-3. Adam Stooke, Joshua Achiam, and Pieter Abbeel. Responsive safety in reinforcement learning by PID lagrangian methods. In ICML, 2020.
-4. Tengyu Xu, Yingbin Liang, and Guanghui Lan. Crpo: A new approach for safe reinforcement learning with convergence guarantee. In ICML, 2021.
-5. Zuxin Liu, Zhepeng Cen, Vladislav Isenbaev, Wei Liu, Steven Wu, Bo Li, and Ding Zhao. Constrained variational policy optimization for safe reinforcement learning. In ICML, 2022.
-6. Yarden As, Ilnura Usmanova, Sebastian Curi, and Andreas Krause. Constrained policy optimization via bayesian world models. ICLR, 2022.
-7.  Weidong Huang, Jiaming Ji, Chunhe Xia, Borong Zhang, and Yaodong Yang. Safedreamer: Safe reinforcement learning with world models. In ICLR, 2024.
-8.   
+13. Adam Stooke, Joshua Achiam, and Pieter Abbeel. Responsive safety in reinforcement learning by PID lagrangian methods. In ICML, 2020.
+14. Tengyu Xu, Yingbin Liang, and Guanghui Lan. Crpo: A new approach for safe reinforcement learning with convergence guarantee. In ICML, 2021.
+15. Zuxin Liu, Zhepeng Cen, Vladislav Isenbaev, Wei Liu, Steven Wu, Bo Li, and Ding Zhao. Constrained variational policy optimization for safe reinforcement learning. In ICML, 2022.
+16. Yarden As, Ilnura Usmanova, Sebastian Curi, and Andreas Krause. Constrained policy optimization via bayesian world models. ICLR, 2022.
+17.  Weidong Huang, Jiaming Ji, Chunhe Xia, Borong Zhang, and Yaodong Yang. Safedreamer: Safe reinforcement learning with world models. In ICLR, 2024.
+18.   
 
 
 
