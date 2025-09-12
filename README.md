@@ -83,6 +83,7 @@
 1. Learning to Walk in the Real World with Minimal Human Effort, CORL 2020
 2. WCSAC: Worst-Case Soft Actor Critic for Safety-Constrained Reinforcement Learning.AAAI 2021.
 3. Safe off-policy deep reinforcement learning algorithm for volt-var control in power distribution systems. IEEE Transactions on Smart Grid 2019
+4.  CONSERVATIVE SAFETY CRITICS FOR EXPLORATION, ICLR 2021    
      
 
 ### Penalty based approaches (pros: Simple, stable, strong constraint sastisfcation, cons: Leads to suboptimal policies)
