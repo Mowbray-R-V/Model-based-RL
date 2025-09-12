@@ -98,7 +98,8 @@
 
 # 📘Gradient free optimisation
 1. The Cross-Entropy Method for Combinatorial and Continuous Optimization, Methodology and Computing in Applied Probability, 1999
-2. The Cross-Entropy Method for Optimization. In Handbook of Statistics.  
+2. The Cross-Entropy Method for Optimization. In Handbook of Statistics.
+3. Constrained cross-entropy method for safe reinforcement learning. NIPS 2018    
 
 # 📘Exploration
 1. [Exploration and Exploitation-10703 Deep Reinforcement Learning	and	Control](https://www.cs.cmu.edu/~rsalakhu/10703/Lectures/Lecture_Exploration.pdf)    
