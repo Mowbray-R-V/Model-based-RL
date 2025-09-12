@@ -79,6 +79,7 @@
 1. Constrained policy optimization. ICML, 2017
 2. Saut´e rl: Almost surely safe reinforcement learning using state augmentation, ICML, 2022.
 3. Responsive safety in reinforcement learning by PID lagrangian methods. In ICML, 2020.
+#### SAC-Lagrangian (CMDP)
 ### Penalty based approaches (pros: Simple, stable, strong constraint sastisfcation, cons: Leads to suboptimal policies)
 1. Ipo: Interior-point policy optimization under constraints, AAAI 2020
 2. Penalized proximal policy optimization for safe reinforcement learning,
@@ -88,7 +89,8 @@
 ### Trust region based methods (pros: , cons: Oscillates around the constraint boundary with high overshoot)    
 1.  Constrained policy optimization. ICML, 2017
 2.  Projection-based constrained policy optimization
-3.  Embedding Safety into RL: A New Take on Trust Region Methods, ICML 2025    
+3.  Embedding Safety into RL: A New Take on Trust Region Methods, ICML 2025
+
 
 
 # 📘Exploration
