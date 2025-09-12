@@ -139,10 +139,15 @@
 1. In classical Optimism in the Face of Uncertainty (OFU) (like in tabular RL or linear models), you maintain confidence sets around your estimated model (transition probabilities or dynamics).
 2. Then you pick the “most optimistic” model in that set — i.e., the one that maximizes the reward estimate but is still plausible.
 3. This requires explicit uncertainty quantification (e.g., concentration inequalities, confidence ellipsoids).
-## OFU for non-linear/high dimensional models (basics)
-1.For nonlinear dynamics (like neural networks as dynamics models), explicit uncertainty quantification is intractable:      
-2. You can’t get simple closed-form confidence sets. Bounds like Hoeffding/Azuma are too loose. Deep models don’t behave linearly, so confidence regions are not ellipsoids but highly irregular.    
+## OFU for continuous non-linear/high dimensional models (basics)
+* For nonlinear dynamics (like neural networks as dynamics models), explicit uncertainty quantification is intractable:      
+* You can’t get simple closed-form confidence sets. Bounds like Hoeffding/Azuma are too loose. Deep models don’t behave linearly, so confidence regions are not ellipsoids but highly irregular.
+  
+## OFU for CMDP - continuous non-linear/high dimensional models 
+1. ActSafe: Active Exploration with Safety Constraints for Reinforcement Learning, ICLR 2025
+2. Constrained Policy Optimization via Bayesian World Models, ICLR 2022
 
+   
 # Bootstrap sampling    
 1. [Bootstrap resampling](https://towardsdatascience.com/bootstrap-resampling-2b453bb036ec/)
 
