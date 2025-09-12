@@ -80,6 +80,11 @@
 2. Saut´e rl: Almost surely safe reinforcement learning using state augmentation, ICML, 2022.
 3. Responsive safety in reinforcement learning by PID lagrangian methods. In ICML, 2020.
 #### SAC-Lagrangian (CMDP)
+1. Learning to Walk in the Real World with Minimal Human Effort, CORL 2020
+2. WCSAC: Worst-Case Soft Actor Critic for Safety-Constrained Reinforcement Learning.AAAI 2021.
+3. Safe off-policy deep reinforcement learning algorithm for volt-var control in power distribution systems. IEEE Transactions on Smart Grid 2019
+     
+
 ### Penalty based approaches (pros: Simple, stable, strong constraint sastisfcation, cons: Leads to suboptimal policies)
 1. Ipo: Interior-point policy optimization under constraints, AAAI 2020
 2. Penalized proximal policy optimization for safe reinforcement learning,
