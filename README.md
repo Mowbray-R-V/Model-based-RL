@@ -70,6 +70,7 @@
 2. Sharan Vaswani, Lin Yang, and Csaba Szepesvari. Near-optimal sample complexity bounds for constrained mdps. NeurIPS, 2022
 3. Dongsheng Ding, Kaiqing Zhang, Jiali Duan, Tamer Bas¸ar, and Mihailo R Jovanovi´c. Convergence and sample complexity of natural policy gradient primal-dual methods for constrained mdps.
 4. Adrian M¨uller, Pragnya Alatur, Volkan Cevher, Giorgia Ramponi, and Niao He. Truly no-regret learning in constrained mdps.
+5. Exploration-exploitation in constrained mdps, 2020  
 ## Continuous state-action space
 ### Deep model based approach (pros: sample efficient, cons: need to learn well calibrated model)
 1. Safe Model-based Reinforcement Learning with Stability Guarantees, NIPS 2017
