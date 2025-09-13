@@ -9,6 +9,8 @@
 7. [Model-Based Reinforcement Learning: Theory and Practice Michael Janner](https://bair.berkeley.edu/blog/2019/12/12/mbpo/)
 8. [Awesome MBRL](https://github.com/opendilab/awesome-model-based-RL)
 9. [Bayesian Reinforcement Learning](https://bayesianrl.github.io/)
+10. [Nathan Lambert on Model-based RL](https://www.talkrl.com/episodes/nathan-lambert)
+11. 
 
 
 # 📘Model error 
