@@ -108,7 +108,20 @@
 # 📘Gradient free optimisation
 1. The Cross-Entropy Method for Combinatorial and Continuous Optimization, Methodology and Computing in Applied Probability, 1999
 2. The Cross-Entropy Method for Optimization. In Handbook of Statistics.
-3. Constrained cross-entropy method for safe reinforcement learning. NIPS 2018    
+3. Constrained cross-entropy method for safe reinforcement learning. NIPS 2018
+## CEM for SafeRL
+## Safe Reinforcement Learning Papers
+
+1. SafeDreamer — Safe Reinforcement Learning with World Models, ICLR 2024  
+2. Safe Planning and Policy Optimization via World Model Learning (SPOWL), arXiv 2025  
+3. Safe Reinforcement Learning with Model Uncertainty Estimates, arXiv 2018  
+4. Exploring Under Constraints with Model-Based Actor-Critic and Safety Filters,CoRL 2024 (PMLR 2025)      
+5. Look Before You Leap: Safe Model-Based Reinforcement Learning with Human Intervention (MBHI), CoRL 2022
+6. Constrained Model-based Reinforcement Learning with Robust Cross-Entropy Method, arXiv 2020
+7. Safe Reinforcement Learning with Minimal Supervision, arXiv 2025  
+8. Constrained Cross-Entropy Method for Safe Reinforcement Learning, NeurIPS 2018  
+9. Data-Efficient Safe Reinforcement Learning Algorithm, ALA Workshop @ AAMAS 2022  
+
 
 # 📘Exploration
 1. [Exploration and Exploitation-10703 Deep Reinforcement Learning	and	Control](https://www.cs.cmu.edu/~rsalakhu/10703/Lectures/Lecture_Exploration.pdf)    
