@@ -109,9 +109,7 @@
 1. The Cross-Entropy Method for Combinatorial and Continuous Optimization, Methodology and Computing in Applied Probability, 1999
 2. The Cross-Entropy Method for Optimization. In Handbook of Statistics.
 3. Constrained cross-entropy method for safe reinforcement learning. NIPS 2018
-## CEM for SafeRL
-## Safe Reinforcement Learning Papers
-
+## CEM based SafeRL
 1. SafeDreamer — Safe Reinforcement Learning with World Models, ICLR 2024  
 2. Safe Planning and Policy Optimization via World Model Learning (SPOWL), arXiv 2025  
 3. Safe Reinforcement Learning with Model Uncertainty Estimates, arXiv 2018  
