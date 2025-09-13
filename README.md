@@ -84,7 +84,8 @@
 1. Learning to Walk in the Real World with Minimal Human Effort, CORL 2020
 2. WCSAC: Worst-Case Soft Actor Critic for Safety-Constrained Reinforcement Learning.AAAI 2021.
 3. Safe off-policy deep reinforcement learning algorithm for volt-var control in power distribution systems. IEEE Transactions on Smart Grid 2019
-4.  CONSERVATIVE SAFETY CRITICS FOR EXPLORATION, ICLR 2021    
+4. CONSERVATIVE SAFETY CRITICS FOR EXPLORATION, ICLR 2021
+
      
 
 ### Penalty based approaches (pros: Simple, stable, strong constraint sastisfcation, cons: Leads to suboptimal policies)
@@ -159,10 +160,10 @@
 3. Optimism-Driven Exploration for Nonlinear Systems, ICRA 2015 (Extends OFU for nonlinear continuous systems)
 4. Combining Pessimism with Optimism for Robust and Efficient Model-Based Deep Reinforcement Learning (RH-UCRL), ICML 2021
 5. DOPE: Doubly Optimistic and Pessimistic Exploration for Safe Reinforcement Learning, NIPS 2022
-6.     
-7. 
-8. 
-9. 
+
+# Other papers
+1. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning, 2024
+2. 
 
 
 # 📘Benchmark Analysis
@@ -178,7 +179,13 @@
 4. [Torch RL](https://docs.pytorch.org/rl/stable/index.html#)
 5. [GPytorch](https://gpytorch.ai/)
 
-# TO-DO
+# 📘Debugging tips
+1. [Debugging Deep Model-based Reinforcement Learning Systems](https://natolambert.com/writing/debugging-mbrl)
+2. [Debugging RL, Without the Agonizing Pain](https://andyljones.com/posts/rl-debugging.html)
+3. [RL debugging advice](https://github.com/andyljones/reinforcement-learning-discord-wiki/wiki#debugging-advice)
+4. 
+
+# 📘TO-DO
 1. [Check quan vuong work](https://github.com/quanvuong/paper_summaries/tree/master)
 
 
