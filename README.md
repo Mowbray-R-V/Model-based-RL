@@ -152,18 +152,18 @@
 2. Constrained Policy Optimization via Bayesian World Models, ICLR 2022
 
    
-# Bootstrap sampling    
+# 📘Bootstrap sampling    
 1. [Bootstrap resampling](https://towardsdatascience.com/bootstrap-resampling-2b453bb036ec/)
 
 
-# Key papers
+# 📘Key papers
 1. Efficient Model-Based Reinforcement Learning through Optimistic Thompson Sampling (HOT-GP), ICLR 2025    
 2. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning (H-UCRL), NIPS 2020    
 3. Optimism-Driven Exploration for Nonlinear Systems, ICRA 2015 (Extends OFU for nonlinear continuous systems)
 4. Combining Pessimism with Optimism for Robust and Efficient Model-Based Deep Reinforcement Learning (RH-UCRL), ICML 2021
 5. DOPE: Doubly Optimistic and Pessimistic Exploration for Safe Reinforcement Learning, NIPS 2022
 
-# Other papers
+# 📘Other papers
 1. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning, 2024
 2. Low Level Control of a Quadrotor with Deep Model-Based Reinforcement Learning, RA-L 2019 (Nice low level implementation)
    
