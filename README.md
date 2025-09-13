@@ -39,7 +39,11 @@
 5. Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, ICML 2016 (MC dropout: Approximates Bayesian inference for compute cheap predicitve uncertainty estimate. Handles only epsitemic uncertainty)
 6. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? , NIPS 2017 (extended the MC dropout approach to also learn aleatoric uncertainty via a variance output head, making it possible to quantify both epistemic + aleatoric in a single model.)    
 7. Yarin Gal. Uncertainty in deep learning. PhD Thesis, PhD thesis, University of Cambridge, 2016.
-8. Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? Structural Safety,  31(2):105–112, 2009.    
+8. Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? Structural Safety,  31(2):105–112, 2009.
+## MC Dropout on latent space models
+1. On Uncertainty in Deep State Space Models for ModelBased Reinforcement Learning, TMLR 2022
+2. Model-Based Offline Reinforcement Learning With Uncertainty Estimation and Policy Constraint, IEEE TAI 2024
+
   
 
 # 📘Predictive Propgation during model rollout
@@ -166,6 +170,8 @@
 # 📘Other papers
 1. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning, 2024
 2. Low Level Control of a Quadrotor with Deep Model-Based Reinforcement Learning, RA-L 2019 (Nice low level implementation)
+3. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning
+4. 
    
 
 
