@@ -9,7 +9,7 @@
 7. [Model-Based Reinforcement Learning: Theory and Practice Michael Janner](https://bair.berkeley.edu/blog/2019/12/12/mbpo/)
 8. [Awesome MBRL](https://github.com/opendilab/awesome-model-based-RL)
 9. [Bayesian Reinforcement Learning](https://bayesianrl.github.io/)
-10. [Nathan Lambert on Model-based RL](https://www.talkrl.com/episodes/nathan-lambert)
+10. [TalK RL - Nathan Lambert on Model-based RL](https://www.talkrl.com/episodes/nathan-lambert)    
 11. 
 
 
@@ -165,7 +165,8 @@
 
 # Other papers
 1. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning, 2024
-2. 
+2. Low Level Control of a Quadrotor with Deep Model-Based Reinforcement Learning, RA-L 2019 (Nice low level implementation)
+   
 
 
 # 📘Benchmark Analysis
