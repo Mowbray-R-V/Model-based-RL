@@ -19,6 +19,13 @@
 3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
 4. 
 
+# 📘Monotoic policy update guarantess
+1. Approximately optimal approximate reinforcement learning, ICML 2002 (proposes a lower-bound optimization framework for mixture policies to guarantees monotonic improvement)
+2. Trust Region Policy Optimization, ICML 2015 (extends this for stochastic policies by introducing a trust region constraint based on a divergence measure between the old and updated policies for stable updates)
+3. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019
+4. When to trust your model: Model-based policy optimization, ICML  2019    
+
+
 
 # 📘Uncertainty in MBRL
 1. Self-Supervised Exploration via Disagreement, ICML 2019    
