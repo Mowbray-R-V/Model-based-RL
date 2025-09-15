@@ -189,7 +189,10 @@
 1. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning, 2024
 2. Low Level Control of a Quadrotor with Deep Model-Based Reinforcement Learning, RA-L 2019 (Nice low level implementation)
 3. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning
-4. 
+
+
+
+
    
 
 
@@ -197,8 +200,12 @@
 1. Benchmarking Deep Reinforcement Learning for Continuous Control, ICML 2016    
 2. Reinforcement Learning with Deep Energy-Based Policies, ICML 2017    
 
+# Metrics
+1. Deep Reinforcement Learning at the Edge of the Statistical Precipice, NIPS 2021
+2. [Blog](https://agarwl.github.io/rliable/)
+3. [Google AI](https://research.google/blog/rliable-towards-reliable-evaluation-reporting-in-reinforcement-learning/)    
 
-
+ 
 # 📘Toolbox
 1. [MBRL-Lib Meta AI](https://github.com/facebookresearch/mbrl-lib). [Paper : MBRL-Lib: A Modular Library forModel-based Reinforcement Learning](https://arxiv.org/pdf/2104.10159)
 2. [DI-engine](https://github.com/opendilab/DI-engine)
