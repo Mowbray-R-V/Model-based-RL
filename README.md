@@ -112,7 +112,7 @@
 2.  Projection-based constrained policy optimization
 3.  Embedding Safety into RL: A New Take on Trust Region Methods, ICML 2025
 
-# 📘Gradient free optimisation
+# 📘Gradient free optimisation (popultion based)
 1. The Cross-Entropy Method for Combinatorial and Continuous Optimization, Methodology and Computing in Applied Probability, 1999
 2. The Cross-Entropy Method for Optimization. In Handbook of Statistics.
 3. Constrained cross-entropy method for safe reinforcement learning. NIPS 2018
