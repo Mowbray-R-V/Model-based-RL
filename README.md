@@ -191,7 +191,10 @@
 3. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning
 
 
-
+# 📘Dreamer paper
+1. Mastering diverse control tasks through world models, Nature 2025
+2. Daydreamer: World models for physical robot learning, CORL 2023
+3. 
 
    
 
@@ -200,7 +203,7 @@
 1. Benchmarking Deep Reinforcement Learning for Continuous Control, ICML 2016    
 2. Reinforcement Learning with Deep Energy-Based Policies, ICML 2017    
 
-# Metrics
+# 📘Metrics
 1. Deep Reinforcement Learning at the Edge of the Statistical Precipice, NIPS 2021
 2. [Blog](https://agarwl.github.io/rliable/)
 3. [Google AI](https://research.google/blog/rliable-towards-reliable-evaluation-reporting-in-reinforcement-learning/)    
