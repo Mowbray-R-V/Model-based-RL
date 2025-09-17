@@ -191,10 +191,16 @@
 3. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning
 
 
-# 📘Dreamer paper
+# 📘Dreamer world model based papers
 1. Mastering diverse control tasks through world models, Nature 2025
 2. Daydreamer: World models for physical robot learning, CORL 2023
-3. 
+3. Mastering Atari With Discrete World Models, ICLR 2021
+4. Dream To Control: Learning Behaviours by Latent Imagination, ICLR 2020
+ 
+
+
+# 📘GP model based control papers 
+ 1. Gaussian processes for dynamics learning in model predictive control, ARC 2025  
 
    
 
