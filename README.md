@@ -161,7 +161,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 1. Optimism in the Face of Uncertainty (OFU)    
 2. Posterior (Thompson) Sampling
 3. Intrinsic Motivation / Bonus-Based
-## Optimistic exploration papers
+## Optimistic exploration papers (Areas to explore: Computational tractability of OFU, combining OFU with safety guarantees)
 1. OFU -  When uncertain about the environment, act as if the most optimistic plausible model (consistent with observed data) is true.    
 2. [The need for Explicit Exploration in Model-based Reinforcement Learning](https://berkenkamp.me/blog/2020-12-06-mbrl-exploration/#Mania2019Certainty)
 3. H-UCRL - Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020
@@ -173,7 +173,6 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 9. Optimism-driven exploration for nonlinear systems - ICRA, 2015 (First extension of UCRL-style optimism to continuous nonlinear systems via generalized linear models.)
 10. Safe Exploration in Reinforcement Learning: Theory and Applications in Robotics
 11. The Many Faces of Optimism: a Unifying Approach, ICML 2008    
-12. Areas to explore: Computational tractability of strict OFU, combining OFU with safety guarantees
 ## Optimistic/Pessimistic safe exploration papers
 1. DOPE: Doubly Optimistic and Pessimistic Exploration for Safe Reinforcement Learning
 2. A Policy Gradient Primal-Dual Algorithm for Constrained MDPs with Uniform PAC Guarantees
