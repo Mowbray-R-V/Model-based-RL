@@ -33,6 +33,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 5. Mastering Atari with Discrete World Models, ICLR 2021 (**DreamerV2**)
 6. Dream to Control: Learning Behaviors by Latent Imagination, ICML 2020 (**Dreamer**)
 7. Learning Latent Dynamics for Planning from Pixels, ICML 2019 (**Planet**)
+8. Embed to Control: A Locally Linear Latent Dynamics Model for Control from Raw Images,  2015
 
 
 
