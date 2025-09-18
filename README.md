@@ -35,7 +35,9 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 7. Learning Latent Dynamics for Planning from Pixels, ICML 2019 (**Planet**)
 8. Embed to Control: A Locally Linear Latent Dynamics Model for Control from Raw Images,  2015
 9. Temporal Difference Learning for Model Predictive Control, ICML 2022  (**TD-MPC**)
-10. TD-MPC2:Scalable, Robust World Models for Continuous Control, ICLR 2024          
+10. TD-MPC2:Scalable, Robust World Models for Continuous Control, ICLR 2024
+--------------------------------------------------------------------------------------
+1.
 
 
 
