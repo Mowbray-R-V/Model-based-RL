@@ -24,6 +24,19 @@
 # 📘Adaptive rollout
 1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)   
 
+# 📘Latent spce models for POMDPS (Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state.)
+Ex: Visual tasks (Atari, DMControl from pixels): the raw image doesn’t tell you velocity or hidden forces. Latent state encodes those quantities.
+1. [POMDPs for Dummies](https://www.pomdp.org/tutorial/pomdp-solving.html)    
+2. World Models,  2018
+3. Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model, NIPs 2020 (**SAC for POMDPs**)
+4. Value Prediction Network, NIPS 2017
+5. Mastering Atari with Discrete World Models, ICLR 2021 (**DreamerV2**)
+6. Dream to Control: Learning Behaviors by Latent Imagination, ICML 2020 (**Dreamer**)
+7. Learning Latent Dynamics for Planning from Pixels, ICML 2019 (**Planet**)
+8. 
+9. 
+10. 
+
 
 # 📘Model error 
 1. Investigating Compounding Prediction Errors in Learned Dynamics Models    
