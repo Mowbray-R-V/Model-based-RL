@@ -24,8 +24,8 @@
 # 📘Adaptive rollout
 1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)   
 
-# 📘Latent space models for POMDPS 
-Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. EX: Visual tasks (Atari, DMControl from pixels): the raw image doesn’t tell you velocity or hidden forces. Latent state encodes those quantities.
+# 📘Latent space models for POMDPS (High dimensional/Partial observable systems; common for visuomotor policies) 
+Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. They transform the POMDP (partial observability) into an MDP in latent space, enabling standard RL.  EX: Visual tasks (Atari, DMControl from pixels): the raw image doesn’t tell you velocity or hidden forces. Latent state encodes those quantities.
 1. [POMDPs for Dummies](https://www.pomdp.org/tutorial/pomdp-solving.html)    
 2. World Models,  2018
 3. Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model, NIPs 2020 (**SAC for POMDPs**)
@@ -39,7 +39,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 --------------------------------------------------------------------------------------
 1. Model-Based Reinforcement Learning via Latent-Space Collocation, ICML 2021
 2. Data-efficient model-based reinforcement learning with trajectory discrimination, springer 2024
-3. Offline Reinforcement Learning from Images with Latent Space Models, 2020
+3. Offline Reinforcement Learning from Images with Latent Space Models, 2020  (**OMPO**)
 4. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024
 5.    
 
