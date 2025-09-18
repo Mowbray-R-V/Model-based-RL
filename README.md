@@ -12,6 +12,16 @@
 10. [TalK RL - Nathan Lambert on Model-based RL](https://www.talkrl.com/episodes/nathan-lambert)    
 11. 
 
+# 📘Types
+## Polciy learning using synthetic data (stored in buffer)
+1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
+2. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019 (**Multi-step rollout**)
+4. When to trust your model: Model-based policy optimization, ICML  2019 (**Multi-step rollout**)
+## Value estimation using longer rollouts rather than 1-step traget (not stored in buffer)    
+1. Model-based value estimation for efficient model-free reinforcement learning, 2018
+2. Sample-efficient reinforcement learning with stochastic ensemble value expansion, NIPS 2018
+
+
 
 # 📘Model error 
 1. Investigating Compounding Prediction Errors in Learned Dynamics Models    
