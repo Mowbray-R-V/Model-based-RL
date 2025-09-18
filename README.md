@@ -10,7 +10,7 @@
 8. [Awesome MBRL](https://github.com/opendilab/awesome-model-based-RL)
 9. [Bayesian Reinforcement Learning](https://bayesianrl.github.io/)
 10. [TalK RL - Nathan Lambert on Model-based RL](https://www.talkrl.com/episodes/nathan-lambert)    
-11. 
+
 
 # 📘Types
 ## Polciy learning using synthetic data (stored in buffer)
@@ -37,7 +37,12 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 9. Temporal Difference Learning for Model Predictive Control, ICML 2022  (**TD-MPC**)
 10. TD-MPC2:Scalable, Robust World Models for Continuous Control, ICLR 2024
 --------------------------------------------------------------------------------------
-1.
+1. Model-Based Reinforcement Learning via Latent-Space Collocation, ICML 2021
+2. Data-efficient model-based reinforcement learning with trajectory discrimination, springer 2024
+3. Offline Reinforcement Learning from Images with Latent Space Models, 2020
+4. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024
+5.    
+
 
 
 
