@@ -17,7 +17,7 @@
 1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
 2. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019 (**Multi-step rollout**)
 4. When to trust your model: Model-based policy optimization, ICML  2019 (**Multi-step rollout**)
-## Value estimation using longer rollouts rather than 1-step traget (not stored in buffer)    
+## Value estimation using longer rollouts rather than 1-step target (not stored in buffer)    
 1. Model-based value estimation for efficient model-free reinforcement learning, 2018
 2. Sample-efficient reinforcement learning with stochastic ensemble value expansion, NIPS 2018
 
