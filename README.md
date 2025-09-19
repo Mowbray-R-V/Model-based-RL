@@ -24,7 +24,7 @@
 # 📘Adaptive rollout
 1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)   
 
-# 📘Latent space models for POMDPS (High dimensional/Partial observable systems; common for visuomotor policies) 
+# 📘Latent space models for POMDPS (High dimensional/Partial observable systems; common for vision based policies) 
 Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. They transform the POMDP (partial observability) into an MDP in latent space, enabling standard RL.  EX: Visual tasks (Atari, DMControl from pixels): the raw image doesn’t tell you velocity or hidden forces. Latent state encodes those quantities.
 1. [POMDPs for Dummies](https://www.pomdp.org/tutorial/pomdp-solving.html)    
 2. World Models,  2018
