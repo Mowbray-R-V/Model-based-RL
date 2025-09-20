@@ -54,9 +54,6 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 4. 
 
 # 📘Monotoic policy update guarantess
-1. Approximately optimal approximate reinforcement learning, ICML 2002 (proposes a lower-bound optimization framework for mixture policies to guarantees monotonic improvement)
-2. Trust Region Policy Optimization, ICML 2015 (extends this for stochastic policies by introducing a trust region constraint based on a divergence measure between the old and updated policies for stable updates)
-3. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019
 4. When to trust your model: Model-based policy optimization, ICML  2019    
 
 
@@ -68,8 +65,12 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 
 
 # 📘Return Bound Design
-1. Approximately Optimal Approximate Reinforcement Learning. NIPS 2002. (**CPI-Introduces the performance difference lemma for monotonicpolicy improvement;converts it to conservative policy update; Major theoretical foundation for TRPO, PPO**)
-2. Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees(SLBO) – Meta AI, ICLR 2019
+1. Approximately Optimal Approximate Reinforcement Learning. NIPS 2002. (**CPI-Introduces the performance difference lemma for monotonicpolicy improvement;converts it to conservative policy update; proposes a lower-bound optimization framework for mixture policies to guarantees monotonic improvement; Major theoretical foundation for TRPO, PPO**)
+2. Trust Region Policy Optimization, ICML 2015 (**TRPO- Extends CPI for stochastic policies by introducing a trust region constraint based on a divergence measure between the old and new policies for stable updates**)
+3. Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees(SLBO) – Meta AI, ICLR 2019
+4. When to trust your model: Model-based policy optimization, ICML  2019 (**MBPO-Uses return dicreapancy bounds to validated the need for optimal model rollout horizon**)
+5. [Note on Simulation Lemma](https://wensun.github.io/CS4789_data/simulation_lemma.pdf)    
+
 
 # 📘Predictive Uncertainty Estimation
 1. Aleatoric and Epistemic Uncertainty in Machine Learning - https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf
