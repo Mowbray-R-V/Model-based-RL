@@ -68,7 +68,8 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 
 
 # 📘Return Bound Design
-1. Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees(SLBO) – Meta AI, ICLR 2019
+1. Approximately Optimal Approximate Reinforcement Learning. NIPS 2002. (**CPI-Introduces the performance difference lemma for monotonicpolicy improvement;converts it to conservative policy update; Major theoretical foundation for TRPO, PPO**)
+2. Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees(SLBO) – Meta AI, ICLR 2019
 
 # 📘Predictive Uncertainty Estimation
 1. Aleatoric and Epistemic Uncertainty in Machine Learning - https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf
