@@ -62,11 +62,13 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 # 📘Return Bound Design / Improvement gurantees
 1. Approximately Optimal Approximate Reinforcement Learning. NIPS 2002. (**CPI-Introduces the performance difference lemma for monotonicpolicy improvement;converts it to conservative policy update; proposes a lower-bound optimization framework for mixture policies to guarantees monotonic improvement; Major theoretical foundation for TRPO, PPO**)
 2. Trust Region Policy Optimization, ICML 2015 (**TRPO- Extends CPI for stochastic policies by introducing a trust region constraint based on a divergence measure between the old and new policies for stable updates**)
-3. Near-optimal reinforcement learning in polynomial time. Machine learning, 2002 (**Simulation lemma - linear model error growth**)
+3. Near-optimal reinforcement learning in polynomial time. Machine learning, 2002 (**Simulation lemma(bounds the error in value estimation when the transition and reward function are known only with
+ some specified degree of precision)- linear model error growth**)
 4. An Optimal Tightness Bound for the Simulation Lemma, 2024 (**Simulation lemma variant - semi-linear model error growth**)
-5. Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees(SLBO) – Meta AI, ICLR 2019
-6. When to trust your model: Model-based policy optimization, ICML  2019 (**MBPO-Uses return dicreapancy bounds to validated the need for optimal model rollout horizon**)
-7. [Note on Simulation Lemma](https://wensun.github.io/CS4789_data/simulation_lemma.pdf)    
+5. Constrained Policy Optimization, ICML 2017 (**Provides reward and cost return bounds based on trust region**)
+6. Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees(SLBO) – Meta AI, ICLR 2019
+7. When to trust your model: Model-based policy optimization, ICML  2019 (**MBPO-Uses return dicreapancy bounds to validated the need for optimal model rollout horizon**)
+8. [Note on Simulation Lemma](https://wensun.github.io/CS4789_data/simulation_lemma.pdf)    
 
 
 # 📘Predictive Uncertainty Estimation
