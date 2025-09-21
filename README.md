@@ -22,7 +22,11 @@
 2. Sample-efficient reinforcement learning with stochastic ensemble value expansion, NIPS 2018
 
 # 📘Adaptive rollout
-1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)   
+1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)
+2. Adaptive Rollout Length for Model-Based RL Using Model-Free Deep RL, 2022
+3. Imagine Within Practice: Conservative Rollout Length Adaptation for Model-Based Reinforcement Learning, 20224
+4. Planning and Learning with Adaptive Lookahead, AAAI 2023
+5. 
 
 # 📘Latent space models for POMDPS (High dimensional/Partial observable systems; common for vision based policies) 
 Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. They transform the POMDP (partial observability) into an MDP in latent space, enabling standard RL.  EX: Visual tasks (Atari, DMControl from pixels): the raw image doesn’t tell you velocity or hidden forces. Latent state encodes those quantities.
