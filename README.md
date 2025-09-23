@@ -53,7 +53,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 2. Data-efficient model-based reinforcement learning with trajectory discrimination, springer 2024
 3. Offline Reinforcement Learning from Images with Latent Space Models, 2020  (**OMPO**)
 4. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024
-5.    
+5. Planning to Explore via Self-Supervised World Models, ICML 2020    
 
 
 
