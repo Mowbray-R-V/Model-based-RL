@@ -13,13 +13,20 @@
 
 
 # 📘Types
-## Polciy learning using synthetic data (stored in buffer)
+## Policy training (Dyna-style updates): Synthetic rollouts are added to the replay buffer to augment real experience and accelerate policy learning.
 1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
 2. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019 (**Multi-step rollout**)
 4. When to trust your model: Model-based policy optimization, ICML  2019 (**Multi-step rollout**)
-## Value estimation using longer rollouts rather than 1-step target (not stored in buffer)    
+## Improving value targets (Value Expansion): Rollouts extend the horizon of value backups to provide more accurate temporal difference (TD) targets. (not stored in buffer)    
 1. Model-based value estimation for efficient model-free reinforcement learning, 2018
 2. Sample-efficient reinforcement learning with stochastic ensemble value expansion, NIPS 2018
+## Guiding decision-making (Imagination-based): Rollouts are provided as auxiliary inputs or features to the policy, enabling it to reason about imagined futures.
+1. Imagination-augmented agents for deep reinforcement learning, NIPS 2017  
+## Planning / Tree search: Rollouts are explicitly used for lookahead planning, often with search algorithms.
+1. Mastering the game of Go without human knowledge. Nature 2017
+2. Mastering Atari, Go, chess and shogi by planning with a learned model. Nature 2020
+ <img width="989" height="341" alt="image" src="https://github.com/user-attachments/assets/209ae004-e7e5-42ab-a4a1-834ef5260c11" />
+
 
 # 📘Adaptive rollout
 1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)
