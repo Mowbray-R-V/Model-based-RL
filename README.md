@@ -13,7 +13,7 @@
 
 
 # 📘Types
-# Background planning
+# Background planning (offline reactive policy search )
 ## Policy training (Dyna-style updates): Synthetic rollouts are added to the replay buffer to augment real experience and accelerate policy learning.
 1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
 2. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019 (**Multi-step rollout**)
