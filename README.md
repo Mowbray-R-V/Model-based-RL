@@ -176,7 +176,13 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 9. Data-Efficient Safe Reinforcement Learning Algorithm, ALA Workshop @ AAMAS 2022  
 
 
-# 📘Exploration
+# 📘Exploration-exploitaion dilemma in estimates learned 
+The exploration–exploitation dilemma is a general principle that applies to any estimation problem where decisions must be made under uncertainty. The specific strategy depends on what you are uncertain about.
+<img width="1090" height="325" alt="image" src="https://github.com/user-attachments/assets/2e9519e6-fae7-45be-b7bc-f43c54b91f60" />
+
+
+
+
 1. [Exploration and Exploitation-10703 Deep Reinforcement Learning	and	Control](https://www.cs.cmu.edu/~rsalakhu/10703/Lectures/Lecture_Exploration.pdf)    
 ## Naïve random exploration (best suited for tabular data, compute costly for large dimensional problem)
 1. ε-greedy → Watkins (1989), Sutton & Barto (1998/2018).
