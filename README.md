@@ -179,6 +179,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 # 📘Exploration-exploitaion dilemma in estimates learned 
 The exploration–exploitation dilemma is a general principle that applies to any estimation problem where decisions must be made under uncertainty. The specific strategy depends on what you are uncertain about.
 <img width="1090" height="325" alt="image" src="https://github.com/user-attachments/assets/2e9519e6-fae7-45be-b7bc-f43c54b91f60" />
+<img width="1383" height="535" alt="image" src="https://github.com/user-attachments/assets/26252ebe-13ef-4bc3-8a07-a45e88430826" />
 
 
 
