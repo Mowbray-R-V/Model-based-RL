@@ -18,6 +18,8 @@
 1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
 2. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019 (**Multi-step rollout**)
 4. When to trust your model: Model-based policy optimization, ICML  2019 (**Multi-step rollout**)
+## Backpropagation through time (exploits model derivatives)
+1. PILCO: A Model-Based and Data-Efficient Approach to Policy Search, ICML 2011  (**Greedy exploration**)
 ## Improving value targets (Value Expansion): Rollouts extend the horizon of value backups to provide more accurate temporal difference (TD) targets. (not stored in buffer)    
 1. Model-based value estimation for efficient model-free reinforcement learning, 2018
 2. Sample-efficient reinforcement learning with stochastic ensemble value expansion, NIPS 2018
