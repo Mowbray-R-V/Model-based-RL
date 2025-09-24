@@ -29,6 +29,9 @@
 ## Planning / Tree search: Rollouts are explicitly used for lookahead planning, often with search algorithms.
 1. Mastering the game of Go without human knowledge. Nature 2017
 2. Mastering Atari, Go, chess and shogi by planning with a learned model. Nature 2020
+## Shooting algorithms
+1. Deep reinforcement learning in a handful of trials using probabilistic dynamics models, NIPS 2018
+2. Robust constrained model predictive control. 2005  
  <img width="989" height="341" alt="image" src="https://github.com/user-attachments/assets/209ae004-e7e5-42ab-a4a1-834ef5260c11" />
 
 
