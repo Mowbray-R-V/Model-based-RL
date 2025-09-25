@@ -72,7 +72,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
 4. 
 
-# 📘Uncertainty in MBRL
+# 📘Uncertainty-aware MBRL
 1. Self-Supervised Exploration via Disagreement, ICML 2019    
 2. Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation    
 
@@ -102,7 +102,9 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 6. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? , NIPS 2017 (extended the MC dropout approach to also learn aleatoric uncertainty via a variance output head, making it possible to quantify both epistemic + aleatoric in a single model.)    
 7. Yarin Gal. Uncertainty in deep learning. PhD Thesis, PhD thesis, University of Cambridge, 2016.
 8. Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? Structural Safety,  31(2):105–112, 2009.
-9. A Simple Baseline for Bayesian Uncertainty in Deep Learning, NIPS 2019    
+9. A Simple Baseline for Bayesian Uncertainty in Deep Learning, NIPS 2019
+10. Learning and Policy Search in Stochastic Dynamical Systems With Bayesians Neural Networks, ICML 2017 (**Varaitional inference**)
+11.  Bayesian Reinforcement Learning: A Survey- Foundations and Trends in Machine Learning, 2015  
 ## MC Dropout on latent space models
 1. On Uncertainty in Deep State Space Models for ModelBased Reinforcement Learning, TMLR 2022
 2. Model-Based Offline Reinforcement Learning With Uncertainty Estimation and Policy Constraint, IEEE TAI 2024
