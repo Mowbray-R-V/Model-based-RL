@@ -10,7 +10,8 @@
 8. [Awesome MBRL](https://github.com/opendilab/awesome-model-based-RL)
 9. [Bayesian Reinforcement Learning](https://bayesianrl.github.io/)
 10. [TalK RL - Nathan Lambert on Model-based RL](https://www.talkrl.com/episodes/nathan-lambert)
-11. [Safe-RL](https://github.com/befelix/safe_learning)
+11. [Safe-RL](https://docs.google.com/presentation/d/1slZyKj1G_XvtH8laWMClcQVMLbiQyqKW25cV9gY3ypE/edit?slide=id.g2ef518ab302_4_75#slide=id.g2ef518ab302_4_75)
+12. 
 
 
 # 📘Types
