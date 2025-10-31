@@ -16,7 +16,7 @@
 
 
 # 📘Types
-# Background planning (offline reactive policy search )
+# ⭐ Background planning (offline reactive policy search )
 ## Policy training (Dyna-style updates): Synthetic rollouts are added to the replay buffer to augment real experience and accelerate policy learning.
 1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
 2. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019 (**Multi-step rollout**)
@@ -28,7 +28,7 @@
 2. Sample-efficient reinforcement learning with stochastic ensemble value expansion, NIPS 2018
 ## Guiding decision-making (Imagination-based): Rollouts are provided as auxiliary inputs or features to the policy, enabling it to reason about imagined futures.
 1. Imagination-augmented agents for deep reinforcement learning, NIPS 2017  
-# Decsion-time planning
+# ⭐ Decsion-time planning
 ## Planning / Tree search: Rollouts are explicitly used for lookahead planning, often with search algorithms.
 1. Mastering the game of Go without human knowledge. Nature 2017
 2. Mastering Atari, Go, chess and shogi by planning with a learned model. Nature 2020
@@ -44,7 +44,7 @@
 2. Adaptive Rollout Length for Model-Based RL Using Model-Free Deep RL, 2022
 3. Imagine Within Practice: Conservative Rollout Length Adaptation for Model-Based Reinforcement Learning, 20224
 4. Planning and Learning with Adaptive Lookahead, AAAI 2023
-5. 
+   
 
 # 📘Latent space models for POMDPS (High dimensional/Partial observable systems; common for vision based policies) 
 Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. They transform the POMDP (partial observability) into an MDP in latent space, enabling standard RL.  EX: Visual tasks (Atari, DMControl from pixels): the raw image doesn’t tell you velocity or hidden forces. Latent state encodes those quantities.
@@ -114,7 +114,6 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 
   
 
-# 📘Predictive Propgation during model rollout
 
 # 📘Neat history - check related works in 
 1. Modified PETS
@@ -134,7 +133,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
  learning. Annual Review of Control, Robotics, and Autonomous Systems, 2022.
 
 
-# Constrained MDPs
+# ⭐ Constrained MDPs
 1.  E. Altman. Constrained Markov Decision Processes. Chapman and Hall, 1999.
 ## Discrete state-action space
 1. Yonathan Efroni, Shie Mannor, and Matteo Pirotta. Exploration-exploitation in constrained mdps.
@@ -265,9 +264,7 @@ The exploration–exploitation dilemma is a general principle that applies to an
 
 # 📘GP model based control papers 
  1. Gaussian processes for dynamics learning in model predictive control, ARC 2025  
-
    
-
 
 # 📘Benchmark Analysis
 1. Benchmarking Deep Reinforcement Learning for Continuous Control, ICML 2016    
