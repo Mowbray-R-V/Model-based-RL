@@ -132,9 +132,6 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 1. Javier Garc´ıa, Fern, and o Fern´andez. A comprehensive survey on safe reinforcement learning. JMLR, 2015.
 2. Lukas Brunke, Melissa Greeff, Adam W Hall, Zhaocong Yuan, Siqi Zhou, Jacopo Panerati, and Angela P Schoellig. Safe learning in robotics: From learning-based control to safe reinforcement
  learning. Annual Review of Control, Robotics, and Autonomous Systems, 2022.
-## Safe exploration in deep RL
-1. 
-
 
 
 # Constrained MDPs
