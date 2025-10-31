@@ -12,7 +12,7 @@
 10. [TalK RL - Nathan Lambert on Model-based RL](https://www.talkrl.com/episodes/nathan-lambert)
 11. [Safe-RL](https://docs.google.com/presentation/d/1slZyKj1G_XvtH8laWMClcQVMLbiQyqKW25cV9gY3ypE/edit?slide=id.g2ef518ab302_4_75#slide=id.g2ef518ab302_4_75)
 12. [World Models ICLR 2025 workshop](https://iclr.cc/virtual/2025/workshop/24000)
-13. 
+
 
 
 # 📘Types
