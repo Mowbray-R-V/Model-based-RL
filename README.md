@@ -73,7 +73,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 1. Investigating Compounding Prediction Errors in Learned Dynamics Models    
 2. PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias: accumulation of singel step model error systematically over time.)    
 3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
-4. 
+   
 
 # 📘Uncertainty-aware MBRL
 1. Self-Supervised Exploration via Disagreement, ICML 2019    
