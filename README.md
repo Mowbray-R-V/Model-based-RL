@@ -95,19 +95,20 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 
 
 # 📘Predictive Uncertainty Estimation
-1. Aleatoric and Epistemic Uncertainty in Machine Learning - https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf
-2. Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods, Machine Learning 2021, Springer Nature    
-3. Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - NIPS 2017 (scalable replacemnent for Bayesain NNs, Spread across ensemble predictions → epistemic| Each network’s predicted variance → aleatoric.)
+1. Epistemic Artificial Intelligence is Essential for Machine Learning Models to Truly ‘Know When They Do Not Know’ **(Great start)**
+2. Aleatoric and Epistemic Uncertainty in Machine Learning - https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf
+3. Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods, Machine Learning 2021, Springer Nature    
+4. Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - NIPS 2017 (scalable replacemnent for Bayesain NNs, Spread across ensemble predictions → epistemic| Each network’s predicted variance → aleatoric.)
                   <img width="728" height="289" alt="image" src="https://github.com/user-attachments/assets/5eb01438-b19e-4886-bcb8-e39c407a21cc" />
   
-4. T. G. Dietterich. Ensemble methods in machine learning. In Multiple classifier systems. 2000 (Shows ensembles (model combination) improve model prdictve performance)
-5. Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, ICML 2016 (MC dropout: Approximates Bayesian inference for compute cheap predicitve uncertainty estimate. Handles only epsitemic uncertainty)
-6. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? , NIPS 2017 (extended the MC dropout approach to also learn aleatoric uncertainty via a variance output head, making it possible to quantify both epistemic + aleatoric in a single model.)    
-7. Yarin Gal. Uncertainty in deep learning. PhD Thesis, PhD thesis, University of Cambridge, 2016.
-8. Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? Structural Safety,  31(2):105–112, 2009.
-9. A Simple Baseline for Bayesian Uncertainty in Deep Learning, NIPS 2019
-10. Learning and Policy Search in Stochastic Dynamical Systems With Bayesians Neural Networks, ICML 2017 (**Varaitional inference**)
-11.  Bayesian Reinforcement Learning: A Survey- Foundations and Trends in Machine Learning, 2015  
+5. T. G. Dietterich. Ensemble methods in machine learning. In Multiple classifier systems. 2000 (Shows ensembles (model combination) improve model prdictve performance)
+6. Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, ICML 2016 (MC dropout: Approximates Bayesian inference for compute cheap predicitve uncertainty estimate. Handles only epsitemic uncertainty)
+7. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? , NIPS 2017 (extended the MC dropout approach to also learn aleatoric uncertainty via a variance output head, making it possible to quantify both epistemic + aleatoric in a single model.)    
+8. Yarin Gal. Uncertainty in deep learning. PhD Thesis, PhD thesis, University of Cambridge, 2016.
+9. Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? Structural Safety,  31(2):105–112, 2009.
+10. A Simple Baseline for Bayesian Uncertainty in Deep Learning, NIPS 2019
+11. Learning and Policy Search in Stochastic Dynamical Systems With Bayesians Neural Networks, ICML 2017 (**Varaitional inference**)
+12.  Bayesian Reinforcement Learning: A Survey- Foundations and Trends in Machine Learning, 2015  
 ## MC Dropout on latent space models
 1. On Uncertainty in Deep State Space Models for ModelBased Reinforcement Learning, TMLR 2022
 2. Model-Based Offline Reinforcement Learning With Uncertainty Estimation and Policy Constraint, IEEE TAI 2024
