@@ -14,6 +14,8 @@
 12. [World Models ICLR 2025 workshop](https://iclr.cc/virtual/2025/workshop/24000)
 
 
+The Interpretability of Codebooks in Model-Based Reinforcement Learning is Limited
+
 
 # 📘Types
 # ⭐ Background planning (offline reactive policy search )
