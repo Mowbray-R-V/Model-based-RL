@@ -26,6 +26,7 @@ You are welcome to contribute! If you find a paper that is not yet included, ple
 10. [TalK RL - Nathan Lambert on Model-based RL](https://www.talkrl.com/episodes/nathan-lambert)
 11. [Safe-RL](https://docs.google.com/presentation/d/1slZyKj1G_XvtH8laWMClcQVMLbiQyqKW25cV9gY3ypE/edit?slide=id.g2ef518ab302_4_75#slide=id.g2ef518ab302_4_75)
 12. [World Models ICLR 2025 workshop](https://iclr.cc/virtual/2025/workshop/24000)
+13. [Safe-Reinforcement-Learning-Baselines](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines)
 
 
 The Interpretability of Codebooks in Model-Based Reinforcement Learning is Limited
