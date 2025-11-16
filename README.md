@@ -103,7 +103,10 @@ Model-Based RL Types
 12.  Bayesian Reinforcement Learning: A Survey- Foundations and Trends in Machine Learning, 2015              
 ## 🔹 Dropout on latent space models            
 1. On Uncertainty in Deep State Space Models for ModelBased Reinforcement Learning, TMLR 2022            
-2. Model-Based Offline Reinforcement Learning With Uncertainty Estimation and Policy Constraint, IEEE TAI 2024            
+2. Model-Based Offline Reinforcement Learning With Uncertainty Estimation and Policy Constraint, IEEE TAI 2024        
+## 🔹 Uncertainty-aware MBRL
+1. Self-Supervised Exploration via Disagreement, ICML 2019    
+2. Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation           
 
 ----
 
@@ -143,10 +146,6 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 2. PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias: accumulation of singel step model error systematically over time.)    
 3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
    
-
-# ⭐Uncertainty-aware MBRL
-1. Self-Supervised Exploration via Disagreement, ICML 2019    
-2. Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation    
 
 
  
