@@ -55,14 +55,14 @@ You are welcome to contribute! If you find a paper that is not yet included, ple
  <img width="989" height="341" alt="image" src="https://github.com/user-attachments/assets/209ae004-e7e5-42ab-a4a1-834ef5260c11" />
 
 
-# 📘Adaptive rollout
+# ⭐Adaptive rollout
 1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)
 2. Adaptive Rollout Length for Model-Based RL Using Model-Free Deep RL, 2022
 3. Imagine Within Practice: Conservative Rollout Length Adaptation for Model-Based Reinforcement Learning, 20224
 4. Planning and Learning with Adaptive Lookahead, AAAI 2023
    
 
-# 📘Latent space models for POMDPS (High dimensional/Partial observable systems; common for vision based policies) 
+# ⭐Latent space models for POMDPS (High dimensional/Partial observable systems; common for vision based policies) 
 Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. They transform the POMDP (partial observability) into an MDP in latent space, enabling standard RL.  EX: Visual tasks (Atari, DMControl from pixels): the raw image doesn’t tell you velocity or hidden forces. Latent state encodes those quantities.
 1. [POMDPs for Dummies](https://www.pomdp.org/tutorial/pomdp-solving.html)    
 2. World Models,  2018
@@ -85,19 +85,19 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 
 
 
-# 📘Model error 
+# ⭐Model error 
 1. Investigating Compounding Prediction Errors in Learned Dynamics Models    
 2. PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias: accumulation of singel step model error systematically over time.)    
 3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
    
 
-# 📘Uncertainty-aware MBRL
+# ⭐Uncertainty-aware MBRL
 1. Self-Supervised Exploration via Disagreement, ICML 2019    
 2. Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation    
 
 
 
-# 📘Return Bound Design / Improvement gurantees
+# ⭐Return Bound Design / Improvement gurantees
 1. Approximately Optimal Approximate Reinforcement Learning. NIPS 2002. (**CPI-Introduces the performance difference lemma for monotonicpolicy improvement;converts it to conservative policy update; proposes a lower-bound optimization framework for mixture policies to guarantees monotonic improvement; Major theoretical foundation for TRPO, PPO**)
 2. Safe Policy Iteration ICML 2013 
 3. Trust Region Policy Optimization, ICML 2015 (**TRPO- Extends CPI for stochastic policies by introducing a trust region constraint based on a divergence measure between the old and new policies for stable updates**)
@@ -110,7 +110,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 9. [Note on Simulation Lemma](https://wensun.github.io/CS4789_data/simulation_lemma.pdf)    
 
 
-# 📘Predictive Uncertainty Estimation
+# ⭐Predictive Uncertainty Estimation
 1. Epistemic Artificial Intelligence is Essential for Machine Learning Models to Truly ‘Know When They Do Not Know’ **(Great start)**
 2. Aleatoric and Epistemic Uncertainty in Machine Learning - https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf
 3. Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods, Machine Learning 2021, Springer Nature    
@@ -132,19 +132,19 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
   
 
 
-# 📘Neat history - check related works in 
+# ⭐Neat history - check related works in 
 1. Modified PETS
 2. Trust the Model Where It Trusts Itself- Model-Based Actor-Critic with Uncertainty-Aware Rollout Adaption
 3. On Rollouts in Model-Based Reinforcement Learning
 
-# 📘Model Calibration
+# ⭐Model Calibration
 1. A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
 2. M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
 3.   Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020        
 4. Accurate Uncertainties for Deep Learning Using Calibrated Regression, ICML 2018
 5. Near-optimal Regret Bounds for Reinforcement Learning,  NIPS 2009 (Error radius is learned from data (concentration inequalities → Hoeffding, Bernstein, GP posteriors))      
 
-# 📘SafeRL
+# ⭐SafeRL
 1. Javier Garc´ıa, Fern, and o Fern´andez. A comprehensive survey on safe reinforcement learning. JMLR, 2015.
 2. Lukas Brunke, Melissa Greeff, Adam W Hall, Zhaocong Yuan, Siqi Zhou, Jacopo Panerati, and Angela P Schoellig. Safe learning in robotics: From learning-based control to safe reinforcement
  learning. Annual Review of Control, Robotics, and Autonomous Systems, 2022.
@@ -186,7 +186,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 2.  Projection-based constrained policy optimization
 3.  Embedding Safety into RL: A New Take on Trust Region Methods, ICML 2025
 
-# 📘Gradient free optimisation (population based)
+# ⭐Gradient free optimisation (population based)
 1. The Cross-Entropy Method for Combinatorial and Continuous Optimization, Methodology and Computing in Applied Probability, 1999
 2. The Cross-Entropy Method for Optimization. In Handbook of Statistics.
 3. Constrained cross-entropy method for safe reinforcement learning. NIPS 2018
@@ -202,7 +202,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 9. Data-Efficient Safe Reinforcement Learning Algorithm, ALA Workshop @ AAMAS 2022  
 
 
-# 📘Exploration-exploitaion dilemma in learned estimates  
+# ⭐Exploration-exploitaion dilemma in learned estimates  
 The exploration–exploitation dilemma is a general principle that applies to any estimation problem where decisions must be made under uncertainty. The specific strategy depends on what you are uncertain about.
 <img width="1090" height="325" alt="image" src="https://github.com/user-attachments/assets/2e9519e6-fae7-45be-b7bc-f43c54b91f60" />
 <img width="1383" height="535" alt="image" src="https://github.com/user-attachments/assets/26252ebe-13ef-4bc3-8a07-a45e88430826" />
@@ -254,24 +254,24 @@ The exploration–exploitation dilemma is a general principle that applies to an
 2. Constrained Policy Optimization via Bayesian World Models, ICLR 2022
 
    
-# 📘Bootstrap sampling    
+# ⭐Bootstrap sampling    
 1. [Bootstrap resampling](https://towardsdatascience.com/bootstrap-resampling-2b453bb036ec/)
 
 
-# 📘Key papers
+# ⭐Key papers
 1. Efficient Model-Based Reinforcement Learning through Optimistic Thompson Sampling (HOT-GP), ICLR 2025    
 2. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning (H-UCRL), NIPS 2020    
 3. Optimism-Driven Exploration for Nonlinear Systems, ICRA 2015 (Extends OFU for nonlinear continuous systems)
 4. Combining Pessimism with Optimism for Robust and Efficient Model-Based Deep Reinforcement Learning (RH-UCRL), ICML 2021
 5. DOPE: Doubly Optimistic and Pessimistic Exploration for Safe Reinforcement Learning, NIPS 2022
 
-# 📘Other papers
+# ⭐Other papers
 1. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning, 2024
 2. Low Level Control of a Quadrotor with Deep Model-Based Reinforcement Learning, RA-L 2019 (Nice low level implementation)
 3. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning
 
 
-# 📘Dreamer world model based papers
+# ⭐Dreamer world model based papers
 1. Mastering diverse control tasks through world models, Nature 2025
 2. Daydreamer: World models for physical robot learning, CORL 2023
 3. Mastering Atari With Discrete World Models, ICLR 2021
@@ -279,15 +279,15 @@ The exploration–exploitation dilemma is a general principle that applies to an
  
 
 
-# 📘GP model based control papers 
+# ⭐GP model based control papers 
  1. Gaussian processes for dynamics learning in model predictive control, ARC 2025  
    
 
-# 📘Benchmark Analysis
+# ⭐Benchmark Analysis
 1. Benchmarking Deep Reinforcement Learning for Continuous Control, ICML 2016    
 2. Reinforcement Learning with Deep Energy-Based Policies, ICML 2017    
 
-# 📘Metrics
+# ⭐Metrics
 1. Deep Reinforcement Learning at the Edge of the Statistical Precipice, NIPS 2021
 2. [Blog](https://agarwl.github.io/rliable/)
 3. [Google AI](https://research.google/blog/rliable-towards-reliable-evaluation-reporting-in-reinforcement-learning/)    
@@ -296,20 +296,20 @@ The exploration–exploitation dilemma is a general principle that applies to an
 The Interpretability of Codebooks in Model-Based Reinforcement Learning is Limited
 
  
-# 📘Toolbox
+# ⭐Toolbox
 1. [MBRL-Lib Meta AI](https://github.com/facebookresearch/mbrl-lib). [Paper : MBRL-Lib: A Modular Library forModel-based Reinforcement Learning](https://arxiv.org/pdf/2104.10159)
 2. [DI-engine](https://github.com/opendilab/DI-engine)
 3. [Ray RLlib](https://docs.ray.io/en/latest/rllib/index.html)
 4. [Torch RL](https://docs.pytorch.org/rl/stable/index.html#)
 5. [GPytorch](https://gpytorch.ai/)
 
-# 📘Debugging tips
+# ⭐Debugging tips
 1. [Debugging Deep Model-based Reinforcement Learning Systems](https://natolambert.com/writing/debugging-mbrl)
 2. [Debugging RL, Without the Agonizing Pain](https://andyljones.com/posts/rl-debugging.html)
 3. [RL debugging advice](https://github.com/andyljones/reinforcement-learning-discord-wiki/wiki#debugging-advice)
 4. 
 
-# 📘TO-DO
+# ⭐TO-DO
 1. [Check quan vuong work](https://github.com/quanvuong/paper_summaries/tree/master)
 
 
