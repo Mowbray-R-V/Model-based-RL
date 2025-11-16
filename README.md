@@ -29,6 +29,15 @@ You are welcome to contribute! If you find a paper that is not yet included, ple
 13. [Safe-Reinforcement-Learning-Baselines](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines)
 
 
+Model-Based RL Types
+ ├── A. Background Planning (Offline)
+ │     ├── A1. Dyna-style Synthetic Experience
+ │     ├── A2. Backprop Through Time (Model Differentiable)
+ │     ├── A3. Value Expansion (Better TD Targets)
+ │     └── A4. Imagination-Based Auxiliary Rollouts
+ └── B. Decision-Time Planning (Online)
+       ├── B1. Tree Search / Lookahead Planning
+       └── B2. Shooting-Based Trajectory Optimization
 
 
 # ⭐ Types
