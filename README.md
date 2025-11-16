@@ -4,13 +4,15 @@
 ![](https://img.shields.io/badge/PRs-Welcome-red)
 
 
-This repository focuses on Model-based Reinforcement Learning (MBRL) research, with a strong emphasis on safe exploration, uncertainty quantification, and policy performance guarantees.
+This repository focuses on Model-Based Reinforcement Learning (MBRL) research, with a strong emphasis on **safe exploration**, **uncertainty quantification**, and **policy performance guarantees**.  
 It provides newcomers with a clear overview of core concepts, baselines, benchmarks, and the diverse research directions within the MBRL landscape.
 
 If any authors prefer their work not to be listed here, please feel free to reach out.  
-(**This repository is actively under development — we appreciate all constructive comments and suggestions.**)
+**(This repository is actively under development — I appreciate all constructive comments and suggestions.)**
 
-You are welcome to contribute! If you find a paper that is not yet included, please open an issue or submit a pull request.
+You are welcome to contribute!  
+If you find a paper that is not yet included, feel free to open an issue or submit a pull request.
+
 
 # ⭐ Tutorial 
 1. [Model-Based Methods Tutorial (ICML 2020)](https://sites.google.com/view/mbrl-tutorial)  
