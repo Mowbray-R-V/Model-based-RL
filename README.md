@@ -41,28 +41,36 @@ Model-Based RL Types
 
 ---
 
+
+1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
+2. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019 (**Multi-step rollout**)
+4. When to trust your model: Model-based policy optimization, ICML  2019 (**Multi-step rollout**)
+## Backpropagation through time (exploits model derivatives)
+1. PILCO: A Model-Based and Data-Efficient Approach to Policy Search, ICML 2011  (**Greedy exploration**)
+## Improving value targets (Value Expansion): Rollouts extend the horizon of value backups to provide more accurate temporal difference (TD) targets. (not stored in buffer)    
+1. Model-based value estimation for efficient model-free reinforcement learning, 2018
+2. Sample-efficient reinforcement learning with stochastic ensemble value expansion, NIPS 2018
+## Guiding decision-making (Imagination-based): Rollouts are provided as auxiliary inputs or features to the policy, enabling it to reason about imagined futures.
+1. Imagination-augmented agents for deep reinforcement learning, NIPS 2017  
+# ⭐ Decsion-time planning
+## Planning / Tree search: Rollouts are explicitly used for lookahead planning, often with search algorithms.
+1. Mastering the game of Go without human knowledge. Nature 2017
+2. Mastering Atari, Go, chess and shogi by planning with a learned model. Nature 2020
+## Shooting algorithms
+1. Deep reinforcement learning in a handful of trials using probabilistic dynamics models, NIPS 2018
+2. Robust constrained model predictive control. 2005
+3.  Plan online, learn offline: Efficient learning and exploration via model-based control. ICLR, 2019. (**POLO**)
+
 # ⭐ A. Background Planning(Offline reactive policy search)
 ## 🔹 A1. Policy Training(Dyna-style updates)- Synthetic rollouts are added to the replay buffer to accelerate policy learning
-
-**Key Papers**
-- **Dyna** – An integrated architecture for learning, planning, and reacting (ACM 1991)  
-  *One-step rollouts*
-- **Algorithmic Framework for Model-based Deep RL with Theoretical Guarantees** (ICLR 2019)  
-  *Multi-step rollouts*
-- **When to Trust Your Model: Model-Based Policy Optimization** (ICML 2019)  
-  *Multi-step rollouts*
-
+1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
+2. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019 (**Multi-step rollout**)
+4. When to trust your model: Model-based policy optimization, ICML  2019 (**Multi-step rollout**)
 ---
-
-## 🔹 B. Backpropagation Through Time  
-(Uses model derivatives)
-
-- **PILCO** – A Model-Based and Data-Efficient Approach to Policy Search (ICML 2011)  
-  *Greedy exploration, analytic gradients through the model*
-
+## 🔹 A2. Backpropagation Through Time  
+1. PILCO: A Model-Based and Data-Efficient Approach to Policy Search, ICML 2011  (**Greedy exploration**)
 ---
-
-## 🔹 C. Improving Value Targets  
+## 🔹 A3. Improving Value Targets  
 (Value Expansion / Multi-step TD Targets — NOT stored in buffer)
 
 Rollouts extend TD backups to improve value estimation accuracy.
