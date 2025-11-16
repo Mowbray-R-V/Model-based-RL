@@ -138,13 +138,12 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 18. Mastering diverse control tasks through world models, Nature 2025 (**DreamerV3**)
 19. Training Agents Inside of Scalable World Models, 2025 (**DreamerV4**) 
 
-    
+---
+
 # ⭐SafeRL
 1. Javier Garc´ıa, Fern, and o Fern´andez. A comprehensive survey on safe reinforcement learning. JMLR, 2015.
 2. Lukas Brunke, Melissa Greeff, Adam W Hall, Zhaocong Yuan, Siqi Zhou, Jacopo Panerati, and Angela P Schoellig. Safe learning in robotics: From learning-based control to safe reinforcement
  learning. Annual Review of Control, Robotics, and Autonomous Systems, 2022.
-
-
 # 🔹 Constrained MDPs
 1.  E. Altman. Constrained Markov Decision Processes. Chapman and Hall, 1999.
 ## 🔸 Discrete state-action space
