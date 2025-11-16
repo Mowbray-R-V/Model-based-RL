@@ -41,16 +41,15 @@ Model-Based RL Types
 
 ---
 
-
 1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
 2. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019 (**Multi-step rollout**)
 4. When to trust your model: Model-based policy optimization, ICML  2019 (**Multi-step rollout**)
 ## Backpropagation through time (exploits model derivatives)
 1. PILCO: A Model-Based and Data-Efficient Approach to Policy Search, ICML 2011  (**Greedy exploration**)
-## Improving value targets (Value Expansion): Rollouts extend the horizon of value backups to provide more accurate temporal difference (TD) targets. (not stored in buffer)    
+## Improving value targets(Value Expansion): Rollouts extend the horizon of value backups to provide more accurate temporal difference (TD) targets. (not stored in buffer)    
 1. Model-based value estimation for efficient model-free reinforcement learning, 2018
 2. Sample-efficient reinforcement learning with stochastic ensemble value expansion, NIPS 2018
-## Guiding decision-making (Imagination-based): Rollouts are provided as auxiliary inputs or features to the policy, enabling it to reason about imagined futures.
+## Guiding decision-making(Imagination-based): Rollouts are provided as auxiliary inputs or features to the policy, enabling it to reason about imagined futures.
 1. Imagination-augmented agents for deep reinforcement learning, NIPS 2017  
 # ⭐ Decsion-time planning
 ## Planning / Tree search: Rollouts are explicitly used for lookahead planning, often with search algorithms.
@@ -69,50 +68,24 @@ Model-Based RL Types
    
 ## 🔹 A2. Backpropagation Through Time  
 1. PILCO: A Model-Based and Data-Efficient Approach to Policy Search, ICML 2011  (**Greedy exploration**)
----
-## 🔹 A3. Improving Value Targets  
-(Value Expansion / Multi-step TD Targets — NOT stored in buffer)
 
-Rollouts extend TD backups to improve value estimation accuracy.
+## 🔹 A3. Improving Value Targets(Value Expansion / Multi-step TD Targets — NOT stored in buffer) : Rollouts extend TD backups to improve value estimation accuracy
+1. Model-based value estimation for efficient model-free reinforcement learning, 2018
+2. Sample-efficient reinforcement learning with stochastic ensemble value expansion, NIPS 2018
 
-**Examples**
-- Model-based Value Estimation for Efficient Model-Free RL (2018)
-- STEVE – Sample-Efficient RL with Stochastic Ensemble Value Expansion (NeurIPS 2018)
+## 🔹 A4. Guiding decision-making(Imagination-based): Rollouts are provided as auxiliary inputs or features to the policy, enabling it to reason about imagined futures.
+1. Imagination-augmented agents for deep reinforcement learning, NIPS 2017
+--
 
----
+# ⭐ B. Decision-Time Planning(Online planning during action selection): Model rollouts influence decisions at inference time, not just during training
 
-## 🔹 D. Guiding Decision-Making  
-(Imagination-based / auxiliary input)
-
-Rollouts are fed as *features* to the policy, enabling reasoning about imagined futures.
-
-- Imagination-Augmented Agents (I2A) – NeurIPS 2017
-
----
-
-# ⭐ 2. Decision-Time Planning  
-(Online planning *during* action selection)
-
-Model rollouts influence decisions **at inference time**, not just during training.
-
----
-
-## 🔹 A. Planning / Tree Search
-
-Rollouts are used for lookahead search.
-
-- AlphaGo Zero – Nature 2017  
-- MuZero – Nature 2020
-
----
-
-## 🔹 B. Shooting Algorithms  
-(MPC-style open-loop optimization)
-
-- Deep RL in a Handful of Trials using Probabilistic Dynamics Models (NeurIPS 2018)  
-- Robust Constrained Model Predictive Control (2005)  
-- POLO – Plan Online, Learn Offline (ICLR 2019)
-
+## 🔹 B1. Planning / Tree Search: Rollouts are explicitly used for lookahead planning, often with search algorithms.
+1. Mastering the game of Go without human knowledge. Nature 2017
+2. Mastering Atari, Go, chess and shogi by planning with a learned model. Nature 2020
+## 🔹 B2. Shooting Algorithms  
+1. Deep reinforcement learning in a handful of trials using probabilistic dynamics models, NIPS 2018
+2. Robust constrained model predictive control. 2005
+3.  Plan online, learn offline: Efficient learning and exploration via model-based control. ICLR, 2019. (**POLO**)
 ---
 
 # ⭐ Visual Summary
