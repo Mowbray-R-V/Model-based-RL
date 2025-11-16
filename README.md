@@ -55,7 +55,6 @@ Model-Based RL Types
 
 ## 🔹 A4. Guiding decision-making(Imagination-based): Rollouts are provided as auxiliary inputs or features to the policy, enabling it to reason about imagined futures.
 1. Imagination-augmented agents for deep reinforcement learning, NIPS 2017
---
 
 # ⭐ B. Decision-Time Planning(Online planning during action selection): Model rollouts influence decisions at inference time, not just during training
 
@@ -66,13 +65,10 @@ Model-Based RL Types
 1. Deep reinforcement learning in a handful of trials using probabilistic dynamics models, NIPS 2018
 2. Robust constrained model predictive control. 2005
 3.  Plan online, learn offline: Efficient learning and exploration via model-based control. ICLR, 2019. (**POLO**)
----
-
-# ⭐ Visual Summary
 
 <img width="900" alt="Model-Based RL Overview Diagram" src="https://github.com/user-attachments/assets/209ae004-e7e5-42ab-a4a1-834ef5260c11">
 
-
+---
 
   
 
