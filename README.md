@@ -12,7 +12,6 @@ If any authors prefer their work not to be listed here, please feel free to reac
 
 You are welcome to contribute! If you find a paper that is not yet included, please open an issue or submit a pull request.
 
-
 # ⭐ Tutorial 
 1. [Model-Based Methods Tutorial (ICML 2020)](https://sites.google.com/view/mbrl-tutorial)  
 2. [Model-Based RL Blog (Georgiev, 2023)](https://www.imgeorgiev.com/2023-11-16-mbrl/)  
@@ -30,7 +29,7 @@ You are welcome to contribute! If you find a paper that is not yet included, ple
 
 ---
 
-# ⭐ Model-Based Reinforcement Learning Types based on *how imagined rollouts or model predictions are used* during learning or decision-making.
+# ⭐ Categories of MBRL on how imagined rollouts are used during learning/decision-making.
 
 Model-Based RL Types   
 ├── A. Background Planning (Offline)  
@@ -78,7 +77,6 @@ Model-Based RL Types
 3. Imagine Within Practice: Conservative Rollout Length Adaptation for Model-Based Reinforcement Learning, 20224
 4. Planning and Learning with Adaptive Lookahead, AAAI 2023
    
-
 # ⭐Latent space models for POMDPS (High dimensional/Partial observable systems; common for vision based policies) 
 Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. They transform the POMDP (partial observability) into an MDP in latent space, enabling standard RL.  EX: Visual tasks (Atari, DMControl from pixels): the raw image doesn’t tell you velocity or hidden forces. Latent state encodes those quantities.
 1. [POMDPs for Dummies](https://www.pomdp.org/tutorial/pomdp-solving.html)    
