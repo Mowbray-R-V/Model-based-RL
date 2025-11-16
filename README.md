@@ -110,15 +110,13 @@ Model-Based RL Types
 
 ----
 
-
-
 # ⭐Adaptive rollout
 1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)
 2. Adaptive Rollout Length for Model-Based RL Using Model-Free Deep RL, 2022
 3. Imagine Within Practice: Conservative Rollout Length Adaptation for Model-Based Reinforcement Learning, 20224
 4. Planning and Learning with Adaptive Lookahead, AAAI 2023
    
-# ⭐World models (Suitable for high dimensional/partia1 observable systems) 
+# ⭐World models (for high dimensional/partial observable systems) 
 Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. They transform the POMDP (partial observability) into an MDP in latent space, enabling standard RL.  
 1. [POMDPs for Dummies](https://www.pomdp.org/tutorial/pomdp-solving.html)    
 2. World Models,  2018
@@ -131,12 +129,11 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 9. Temporal Difference Learning for Model Predictive Control, ICML 2022  (**TD-MPC**)
 10. TD-MPC2:Scalable, Robust World Models for Continuous Control, ICLR 2024
 11. Mastering Diverse Domains through World Models, 2024 (**DreamerV3**)
---------------------------------------------------------------------------------------
-1. Model-Based Reinforcement Learning via Latent-Space Collocation, ICML 2021
-2. Data-efficient model-based reinforcement learning with trajectory discrimination, springer 2024
-3. Offline Reinforcement Learning from Images with Latent Space Models, 2020  (**OMPO**)
-4. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024
-5. Planning to Explore via Self-Supervised World Models, ICML 2020    
+12. Model-Based Reinforcement Learning via Latent-Space Collocation, ICML 2021
+13. Data-efficient model-based reinforcement learning with trajectory discrimination, springer 2024
+14. Offline Reinforcement Learning from Images with Latent Space Models, 2020  (**OMPO**)
+15. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024
+16. Planning to Explore via Self-Supervised World Models, ICML 2020            
 
 
 
