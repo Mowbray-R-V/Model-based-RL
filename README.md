@@ -44,28 +44,28 @@ Model-Based RL Types
     └── B2. Shooting-Based Trajectory Optimization  
 
 
-# ⭐ A. Background Planning(Offline reactive policy search)
-## 🔹 A1. Policy Training(Dyna-style updates)- Synthetic rollouts are added to the replay buffer to accelerate policy learning
+## 🔹 A. Background Planning(Offline reactive policy search)
+### 🔸 A1. Policy Training(Dyna-style updates)- Synthetic rollouts are added to the replay buffer to accelerate policy learning
 1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
 2. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019 (**Multi-step rollout**)
 4. When to trust your model: Model-based policy optimization, ICML  2019 (**Multi-step rollout**)
    
-## 🔹 A2. Backpropagation Through Time  
+### 🔸 A2. Backpropagation Through Time  
 1. PILCO: A Model-Based and Data-Efficient Approach to Policy Search, ICML 2011  (**Greedy exploration**)
 
-## 🔹 A3. Improving Value Targets(Value Expansion / Multi-step TD Targets — NOT stored in buffer) : Rollouts extend TD backups to improve value estimation accuracy
+### 🔸 A3. Improving Value Targets(Value Expansion / Multi-step TD Targets — NOT stored in buffer) : Rollouts extend TD backups to improve value estimation accuracy
 1. Model-based value estimation for efficient model-free reinforcement learning, 2018
 2. Sample-efficient reinforcement learning with stochastic ensemble value expansion, NIPS 2018
 
-## 🔹 A4. Guiding decision-making(Imagination-based): Rollouts are provided as auxiliary inputs or features to the policy, enabling it to reason about imagined futures.
+### 🔸 A4. Guiding decision-making(Imagination-based): Rollouts are provided as auxiliary inputs or features to the policy, enabling it to reason about imagined futures.
 1. Imagination-augmented agents for deep reinforcement learning, NIPS 2017
 
-# ⭐ B. Decision-Time Planning(Online planning during action selection): Model rollouts influence decisions at inference time, not just during training
+## 🔹 B. Decision-Time Planning(Online planning during action selection): Model rollouts influence decisions at inference time, not just during training
 
-## 🔹 B1. Planning / Tree Search: Rollouts are explicitly used for lookahead planning, often with search algorithms.
+### 🔸 B1. Planning / Tree Search: Rollouts are explicitly used for lookahead planning, often with search algorithms.
 1. Mastering the game of Go without human knowledge. Nature 2017
 2. Mastering Atari, Go, chess and shogi by planning with a learned model. Nature 2020
-## 🔹 B2. Shooting Algorithms  
+### 🔸 B2. Shooting Algorithms  
 1. Deep reinforcement learning in a handful of trials using probabilistic dynamics models, NIPS 2018
 2. Robust constrained model predictive control. 2005
 3.  Plan online, learn offline: Efficient learning and exploration via model-based control. ICLR, 2019. (**POLO**)
@@ -74,7 +74,7 @@ Model-Based RL Types
 
 ---
 
-# ⭐Return Bound Design / Improvement gurantees
+# ⭐ Return Bound Design / Improvement gurantees
 1. Approximately Optimal Approximate Reinforcement Learning. NIPS 2002. (**CPI-Introduces the performance difference lemma for monotonicpolicy improvement;converts it to conservative policy update; proposes a lower-bound optimization framework for mixture policies to guarantees monotonic improvement; Major theoretical foundation for TRPO, PPO**)
 2. Safe Policy Iteration ICML 2013 
 3. Trust Region Policy Optimization, ICML 2015 (**TRPO- Extends CPI for stochastic policies by introducing a trust region constraint based on a divergence measure between the old and new policies for stable updates**)
@@ -87,7 +87,7 @@ Model-Based RL Types
 9. [Note on Simulation Lemma](https://wensun.github.io/CS4789_data/simulation_lemma.pdf)    
 ---
 
-# ⭐Predictive Uncertainty Estimation
+# ⭐ Predictive Uncertainty Estimation
 1. Epistemic Artificial Intelligence is Essential for Machine Learning Models to Truly ‘Know When They Do Not Know’ **(Great start)**
 2. Aleatoric and Epistemic Uncertainty in Machine Learning - https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf
 3. Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods, Machine Learning 2021, Springer Nature    
@@ -111,7 +111,7 @@ Model-Based RL Types
 ----
 
 
-# ⭐Model Calibration
+# ⭐ Model Calibration
 1. A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
 2. M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
 3. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020        
@@ -240,10 +240,10 @@ The exploration–exploitation dilemma arises whenever decisions must be made un
 2. Constrained Policy Optimization via Bayesian World Models, ICLR 2022
 
 ---
-# ⭐Bootstrap sampling    
+#  ⭐ Bootstrap sampling    
 1. [Bootstrap resampling](https://towardsdatascience.com/bootstrap-resampling-2b453bb036ec/)
 ---
-# ⭐Model error 
+# ⭐ Model error 
 1. Investigating Compounding Prediction Errors in Learned Dynamics Models    
 2. PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias: accumulation of singel step model error systematically over time.)    
 3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
@@ -255,7 +255,7 @@ The exploration–exploitation dilemma arises whenever decisions must be made un
 4. Planning and Learning with Adaptive Lookahead, AAAI 2023
 ---
  
-# ⭐Benchmark Analysis and Metrics
+# ⭐ Benchmark Analysis and Metrics
 1. Benchmarking Deep Reinforcement Learning for Continuous Control, ICML 2016            
 2. Reinforcement Learning with Deep Energy-Based Policies, ICML 2017
 3. Deep Reinforcement Learning at the Edge of the Statistical Precipice, NIPS 2021
@@ -263,7 +263,7 @@ The exploration–exploitation dilemma arises whenever decisions must be made un
 5. [Google AI](https://research.google/blog/rliable-towards-reliable-evaluation-reporting-in-reinforcement-learning/)        
 ---
 
-# ⭐Key papers
+# ⭐ Key papers
 1. Efficient Model-Based Reinforcement Learning through Optimistic Thompson Sampling (HOT-GP), ICLR 2025    
 2. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning (H-UCRL), NIPS 2020    
 3. Optimism-Driven Exploration for Nonlinear Systems, ICRA 2015 (Extends OFU for nonlinear continuous systems)
