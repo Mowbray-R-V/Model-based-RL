@@ -27,7 +27,17 @@ You are welcome to contribute! If you find a paper that is not yet included, ple
 12. [World Models ICLR 2025 workshop](https://iclr.cc/virtual/2025/workshop/24000)
 13. [Safe-Reinforcement-Learning-Baselines](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines)
 
-# ⭐ Model-Based Reinforcement Learning Types is section categorizes model-based RL methods based on *how imagined rollouts or model predictions are used* during learning or decision-making.
+# ⭐ Model-Based Reinforcement Learning Types based on *how imagined rollouts or model predictions are used* during learning or decision-making.
+
+Model-Based RL Types   
+├── A. Background Planning (Offline)  
+│   ├── A1. Dyna-style Synthetic Experience  
+│   ├── A2. Backpropagation Through Time (Differentiable Models)   
+│   ├── A3. Value Expansion (Improved TD Targets)   
+│   └── A4. Imagination-Based Auxiliary Rollouts   
+└── B. Decision-Time Planning (Online)   
+    ├── B1. Tree Search / Lookahead Planning   
+    └── B2. Shooting-Based Trajectory Optimization  
 
 ---
 
@@ -111,15 +121,7 @@ Rollouts are used for lookahead search.
 
 
 
-Model-Based RL Types   
-├── A. Background Planning (Offline)  
-│   ├── A1. Dyna-style Synthetic Experience  
-│   ├── A2. Backpropagation Through Time (Differentiable Models)   
-│   ├── A3. Value Expansion (Improved TD Targets)   
-│   └── A4. Imagination-Based Auxiliary Rollouts   
-└── B. Decision-Time Planning (Online)   
-    ├── B1. Tree Search / Lookahead Planning   
-    └── B2. Shooting-Based Trajectory Optimization    
+  
 
 
 # ⭐ Types
