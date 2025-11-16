@@ -1,7 +1,8 @@
 # Awesome Model-based Reinforcement Learning (Work in progress)
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/Mowbray-R-V/Graph-based-RL4CO)
-![](https://img.shields.io/github/last-commit/Mowbray-R-V/Graph-based-RL4CO?color=green) 
-![](https://img.shields.io/badge/PRs-Welcome-red)
+![Stars](https://img.shields.io/github/stars/Mowbray-R-V/Graph-based-RL4CO?style=social)
+![Issues](https://img.shields.io/github/issues/Mowbray-R-V/Graph-based-RL4CO)
+![License](https://img.shields.io/github/license/Mowbray-R-V/Graph-based-RL4CO)
+
 
 This repository focuses on Model-based Reinforcement Learning (MBRL) research, with a strong emphasis on safe exploration, uncertainty quantification, and policy performance guarantees.
 It provides newcomers with a clear overview of core concepts, baselines, benchmarks, and the diverse research directions within the MBRL landscape.
