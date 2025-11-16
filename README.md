@@ -14,7 +14,7 @@ You are welcome to contribute!
 If you find a paper that is not yet included, feel free to open an issue or submit a pull request.
 
 
-# ⭐ Tutorial 
+# ⭐ Tutorial/Workshop 
 1. [Model-Based Methods Tutorial (ICML 2020)](https://sites.google.com/view/mbrl-tutorial)  
 2. [Model-Based RL Blog (Georgiev, 2023)](https://www.imgeorgiev.com/2023-11-16-mbrl/)  
 3. [CS 4789/5789 – Lec10 by Sarah Dean](https://vod.video.cornell.edu/media/CS+4789A+Lecture+10/1_ymki7oc8)  
@@ -110,12 +110,15 @@ Model-Based RL Types
 
 ----
 
-# ⭐ Adaptive rollout
-1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)
-2. Adaptive Rollout Length for Model-Based RL Using Model-Free Deep RL, 2022
-3. Imagine Within Practice: Conservative Rollout Length Adaptation for Model-Based Reinforcement Learning, 20224
-4. Planning and Learning with Adaptive Lookahead, AAAI 2023
-   
+
+# ⭐Model Calibration
+1. A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
+2. M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
+3. Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020        
+4. Accurate Uncertainties for Deep Learning Using Calibrated Regression, ICML 2018
+5. Near-optimal Regret Bounds for Reinforcement Learning,  NIPS 2009 (Error radius is learned from data (concentration inequalities → Hoeffding, Bernstein, GP posteriors))
+----
+  
 # ⭐ World models (for high dimensional/partial observable systems) 
 Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. They transform the POMDP (partial observability) into an MDP in latent space, enabling standard RL.  
 1. [POMDPs for Dummies](https://www.pomdp.org/tutorial/pomdp-solving.html)    
@@ -192,6 +195,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 8. Constrained Cross-Entropy Method for Safe Reinforcement Learning, NeurIPS 2018  
 9. Data-Efficient Safe Reinforcement Learning Algorithm, ALA Workshop @ AAMAS 2022  
 
+---
 
 # ⭐ ## Exploration–Exploitation Dilemma in Learned Estimates  
 The exploration–exploitation dilemma arises whenever decisions must be made under uncertainty. In model-based RL, the specific exploration strategy depends on the **type of uncertainty**—whether it comes from limited data (epistemic) or inherent stochasticity in the environment (aleatoric).
@@ -202,17 +206,14 @@ The exploration–exploitation dilemma arises whenever decisions must be made un
 <img width="1383" height="535" alt="image" src="https://github.com/user-attachments/assets/26252ebe-13ef-4bc3-8a07-a45e88430826" />
 
 
-
-
-
-## Naïve random exploration (best suited for tabular data, compute costly for large dimensional problem)
+## 🔹 Naïve random exploration (best suited for tabular data, compute costly for large dimensional problem)
 1. ε-greedy → Watkins (1989), Sutton & Barto (1998/2018).
 2. Softmax/Boltzmann → Sutton & Barto, Kaelbling et al. (1996), Thrun (1992).
-## Directed exploration- Uncertainty-driven exploration focuses exploration where where the agent’s knowledge is ambiguous.
+## 🔹 Directed exploration- Uncertainty-driven exploration focuses exploration where where the agent’s knowledge is ambiguous.
 1. Optimism in the Face of Uncertainty (OFU)    
 2. Posterior (Thompson) Sampling
 3. Intrinsic Motivation / Bonus-Based
-## Optimistic exploration papers (Areas to explore: Computational tractability of OFU, combining OFU with safety guarantees)
+## 🔹 Optimistic exploration papers (Areas to explore: Computational tractability of OFU, combining OFU with safety guarantees)
 1. OFU -  When uncertain about the environment, act as if the most optimistic plausible model (consistent with observed data) is true.    
 2. [The need for Explicit Exploration in Model-based Reinforcement Learning](https://berkenkamp.me/blog/2020-12-06-mbrl-exploration/#Mania2019Certainty)
 3. H-UCRL - Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020
@@ -224,7 +225,7 @@ The exploration–exploitation dilemma arises whenever decisions must be made un
 9. Optimism-driven exploration for nonlinear systems - ICRA, 2015 (First extension of UCRL-style optimism to continuous nonlinear systems via generalized linear models.)
 10. Safe Exploration in Reinforcement Learning: Theory and Applications in Robotics
 11. The Many Faces of Optimism: a Unifying Approach, ICML 2008    
-## Optimistic/Pessimistic safe exploration papers
+## 🔹 Optimistic/Pessimistic safe exploration papers
 1. DOPE: Doubly Optimistic and Pessimistic Exploration for Safe Reinforcement Learning
 2. A Policy Gradient Primal-Dual Algorithm for Constrained MDPs with Uniform PAC Guarantees
 3. Safe Reinforcement Learning for Constrained Markov Decision Processes with Stochastic Stopping Time, CDC 2024
@@ -234,23 +235,33 @@ The exploration–exploitation dilemma arises whenever decisions must be made un
 7. Constrained Reinforcement Learning Under Model Mismatch
 8. OptCMDP: Exploration-Exploitation in Constrained MDPs
 9. Optless: Learning Policies with Zero or Bounded Constraint Violation for Constrained MDPs, ICML 2021
-
-## OFU for linear models (basics)
-1. In classical Optimism in the Face of Uncertainty (OFU) (like in tabular RL or linear models), you maintain confidence sets around your estimated model (transition probabilities or dynamics).
-2. Then you pick the “most optimistic” model in that set — i.e., the one that maximizes the reward estimate but is still plausible.
-3. This requires explicit uncertainty quantification (e.g., concentration inequalities, confidence ellipsoids).
-## OFU for continuous non-linear/high dimensional models (basics)
-* For nonlinear dynamics (like neural networks as dynamics models), explicit uncertainty quantification is intractable:      
-* You can’t get simple closed-form confidence sets. Bounds like Hoeffding/Azuma are too loose. Deep models don’t behave linearly, so confidence regions are not ellipsoids but highly irregular.
-  
-## OFU for CMDP - continuous non-linear/high dimensional models 
+## 🔹 OFU for CMDP - continuous non-linear/high dimensional models 
 1. ActSafe: Active Exploration with Safety Constraints for Reinforcement Learning, ICLR 2025
 2. Constrained Policy Optimization via Bayesian World Models, ICLR 2022
 
-   
+---
 # ⭐Bootstrap sampling    
 1. [Bootstrap resampling](https://towardsdatascience.com/bootstrap-resampling-2b453bb036ec/)
-
+---
+# ⭐Model error 
+1. Investigating Compounding Prediction Errors in Learned Dynamics Models    
+2. PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias: accumulation of singel step model error systematically over time.)    
+3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
+---
+# ⭐ Adaptive rollout
+1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)
+2. Adaptive Rollout Length for Model-Based RL Using Model-Free Deep RL, 2022
+3. Imagine Within Practice: Conservative Rollout Length Adaptation for Model-Based Reinforcement Learning, 20224
+4. Planning and Learning with Adaptive Lookahead, AAAI 2023
+---
+ 
+# ⭐Benchmark Analysis and Metrics
+1. Benchmarking Deep Reinforcement Learning for Continuous Control, ICML 2016            
+2. Reinforcement Learning with Deep Energy-Based Policies, ICML 2017
+3. Deep Reinforcement Learning at the Edge of the Statistical Precipice, NIPS 2021
+4. [Blog](https://agarwl.github.io/rliable/)
+5. [Google AI](https://research.google/blog/rliable-towards-reliable-evaluation-reporting-in-reinforcement-learning/)        
+---
 
 # ⭐Key papers
 1. Efficient Model-Based Reinforcement Learning through Optimistic Thompson Sampling (HOT-GP), ICLR 2025    
@@ -258,69 +269,39 @@ The exploration–exploitation dilemma arises whenever decisions must be made un
 3. Optimism-Driven Exploration for Nonlinear Systems, ICRA 2015 (Extends OFU for nonlinear continuous systems)
 4. Combining Pessimism with Optimism for Robust and Efficient Model-Based Deep Reinforcement Learning (RH-UCRL), ICML 2021
 5. DOPE: Doubly Optimistic and Pessimistic Exploration for Safe Reinforcement Learning, NIPS 2022
+--+
 
-# ⭐Other papers
-1. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning, 2024
+# Unsorted
+## OFU for linear models (basics)
+1. In classical Optimism in the Face of Uncertainty (OFU) (like in tabular RL or linear models), you maintain confidence sets around your estimated model (transition probabilities or dynamics).
+2. Then you pick the “most optimistic” model in that set — i.e., the one that maximizes the reward estimate but is still plausible.
+3. This requires explicit uncertainty quantification (e.g., concentration inequalities, confidence ellipsoids).
+## OFU for continuous non-linear/high dimensional models (basics)
+* For nonlinear dynamics (like neural networks as dynamics models), explicit uncertainty quantification is intractable:      
+* You can’t get simple closed-form confidence sets. Bounds like Hoeffding/Azuma are too loose. Deep models don’t behave linearly, so confidence regions are not ellipsoids but highly irregular.
+## Others
+1. The Interpretability of Codebooks in Model-Based Reinforcement Learning is Limited
+2. 1. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning, 2024
 2. Low Level Control of a Quadrotor with Deep Model-Based Reinforcement Learning, RA-L 2019 (Nice low level implementation)
 3. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning
-
-
-
-
-
-# ⭐Model error 
-1. Investigating Compounding Prediction Errors in Learned Dynamics Models    
-2. PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias: accumulation of singel step model error systematically over time.)    
-3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
-   
-
-
- 
-
-
-# ⭐Neat history - check related works in 
+## Neat history - check related works in 
 1. Modified PETS
 2. Trust the Model Where It Trusts Itself- Model-Based Actor-Critic with Uncertainty-Aware Rollout Adaption
 3. On Rollouts in Model-Based Reinforcement Learning
-
-# ⭐Model Calibration
-1. A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
-2. M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
-3.   Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020        
-4. Accurate Uncertainties for Deep Learning Using Calibrated Regression, ICML 2018
-5. Near-optimal Regret Bounds for Reinforcement Learning,  NIPS 2009 (Error radius is learned from data (concentration inequalities → Hoeffding, Bernstein, GP posteriors))      
-
-
-# ⭐GP model based control papers 
- 1. Gaussian processes for dynamics learning in model predictive control, ARC 2025  
-   
-
-# ⭐Benchmark Analysis
-1. Benchmarking Deep Reinforcement Learning for Continuous Control, ICML 2016    
-2. Reinforcement Learning with Deep Energy-Based Policies, ICML 2017    
-
-# ⭐Metrics
-1. Deep Reinforcement Learning at the Edge of the Statistical Precipice, NIPS 2021
-2. [Blog](https://agarwl.github.io/rliable/)
-3. [Google AI](https://research.google/blog/rliable-towards-reliable-evaluation-reporting-in-reinforcement-learning/)    
-
-
-The Interpretability of Codebooks in Model-Based Reinforcement Learning is Limited
-
- 
+---
 # ⭐Toolbox
 1. [MBRL-Lib Meta AI](https://github.com/facebookresearch/mbrl-lib). [Paper : MBRL-Lib: A Modular Library forModel-based Reinforcement Learning](https://arxiv.org/pdf/2104.10159)
 2. [DI-engine](https://github.com/opendilab/DI-engine)
 3. [Ray RLlib](https://docs.ray.io/en/latest/rllib/index.html)
 4. [Torch RL](https://docs.pytorch.org/rl/stable/index.html#)
 5. [GPytorch](https://gpytorch.ai/)
-
+---
 # ⭐Debugging tips
 1. [Debugging Deep Model-based Reinforcement Learning Systems](https://natolambert.com/writing/debugging-mbrl)
 2. [Debugging RL, Without the Agonizing Pain](https://andyljones.com/posts/rl-debugging.html)
 3. [RL debugging advice](https://github.com/andyljones/reinforcement-learning-discord-wiki/wiki#debugging-advice)
-4. 
 
+---
 # ⭐TO-DO
 1. [Check quan vuong work](https://github.com/quanvuong/paper_summaries/tree/master)
 
