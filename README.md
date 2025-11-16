@@ -83,7 +83,7 @@ Model-Based RL Types
 7. Algorithmic Framework for Model-Based Deep Reinforcement Learning with Theoretical Guarantees(SLBO) – Meta AI, ICLR 2019
 8. When to trust your model: Model-based policy optimization, ICML  2019 (**MBPO-Uses return dicreapancy bounds to validated the need for optimal model rollout horizon**)
 9. [Note on Simulation Lemma](https://wensun.github.io/CS4789_data/simulation_lemma.pdf)    
-
+---
 
 # ⭐Predictive Uncertainty Estimation
 1. Epistemic Artificial Intelligence is Essential for Machine Learning Models to Truly ‘Know When They Do Not Know’ **(Great start)**
@@ -94,17 +94,16 @@ Model-Based RL Types
   
 5. T. G. Dietterich. Ensemble methods in machine learning. In Multiple classifier systems. 2000 (Shows ensembles (model combination) improve model prdictve performance)
 6. Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, ICML 2016 (MC dropout: Approximates Bayesian inference for compute cheap predicitve uncertainty estimate. Handles only epsitemic uncertainty)
-7. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? , NIPS 2017 (extended the MC dropout approach to also learn aleatoric uncertainty via a variance output head, making it possible to quantify both epistemic + aleatoric in a single model.)    
-8. Yarin Gal. Uncertainty in deep learning. PhD Thesis, PhD thesis, University of Cambridge, 2016.
-9. Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? Structural Safety,  31(2):105–112, 2009.
-10. A Simple Baseline for Bayesian Uncertainty in Deep Learning, NIPS 2019
-11. Learning and Policy Search in Stochastic Dynamical Systems With Bayesians Neural Networks, ICML 2017 (**Varaitional inference**)
-12.  Bayesian Reinforcement Learning: A Survey- Foundations and Trends in Machine Learning, 2015  
-## MC Dropout on latent space models
-1. On Uncertainty in Deep State Space Models for ModelBased Reinforcement Learning, TMLR 2022
-2. Model-Based Offline Reinforcement Learning With Uncertainty Estimation and Policy Constraint, IEEE TAI 2024
+7. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? , NIPS 2017 (extended the MC dropout approach to also learn aleatoric uncertainty via a variance output head, making it possible to quantify both epistemic + aleatoric in a single model.)   8. Yarin Gal. Uncertainty in deep learning. PhD Thesis, PhD thesis, University of Cambridge, 2016            
+9. Armen Der Kiureghian and Ove Ditlevsen. Aleatory or epistemic? Does it matter? Structural Safety,  31(2):105–112, 2009            
+10. A Simple Baseline for Bayesian Uncertainty in Deep Learning, NIPS 2019            
+11. Learning and Policy Search in Stochastic Dynamical Systems With Bayesians Neural Networks, ICML 2017 (**Varaitional inference**)            
+12.  Bayesian Reinforcement Learning: A Survey- Foundations and Trends in Machine Learning, 2015              
+## 🔹 Dropout on latent space models            
+1. On Uncertainty in Deep State Space Models for ModelBased Reinforcement Learning, TMLR 2022            
+2. Model-Based Offline Reinforcement Learning With Uncertainty Estimation and Policy Constraint, IEEE TAI 2024            
 
-
+----
 
 
 
