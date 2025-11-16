@@ -145,38 +145,35 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
  learning. Annual Review of Control, Robotics, and Autonomous Systems, 2022.
 
 
-# ⭐ Constrained MDPs
+# 🔹 Constrained MDPs
 1.  E. Altman. Constrained Markov Decision Processes. Chapman and Hall, 1999.
-## Discrete state-action space
+## 🔸 Discrete state-action space
 1. Yonathan Efroni, Shie Mannor, and Matteo Pirotta. Exploration-exploitation in constrained mdps.
 2. Sharan Vaswani, Lin Yang, and Csaba Szepesvari. Near-optimal sample complexity bounds for constrained mdps. NeurIPS, 2022
 3. Dongsheng Ding, Kaiqing Zhang, Jiali Duan, Tamer Bas¸ar, and Mihailo R Jovanovi´c. Convergence and sample complexity of natural policy gradient primal-dual methods for constrained mdps.
 4. Adrian M¨uller, Pragnya Alatur, Volkan Cevher, Giorgia Ramponi, and Niao He. Truly no-regret learning in constrained mdps.
 5. Exploration-exploitation in constrained mdps, 2020  
-## Continuous state-action space
-### Deep model based approach (pros: sample efficient, cons: need to learn well calibrated model)
+## 🔸Continuous state-action space
+### 🟡 Deep model based approach (pros: sample efficient, cons: need to learn well calibrated model)
 1. Safe Model-based Reinforcement Learning with Stability Guarantees, NIPS 2017
 2. ActSafe: Active Exploration with Safety Constraints for Reinforcement Learning, ICLR 2025
 3. SafeDreamer: Safe Reinforcement Learning with World Models, ICLR 2024
-### Lagrangian based approach  (pros: , cons: Lagrange multiplier may not work well in practice due to oscillations and overshoot)
+### 🟡 Lagrangian based approach  (pros: , cons: Lagrange multiplier may not work well in practice due to oscillations and overshoot)
 1. Constrained policy optimization. ICML, 2017
 2. Saut´e rl: Almost surely safe reinforcement learning using state augmentation, ICML, 2022.
 3. Responsive safety in reinforcement learning by PID lagrangian methods. In ICML, 2020.
-#### SAC-Lagrangian (CMDP)
+#### 🟡 SAC-Lagrangian (CMDP)
 1. Learning to Walk in the Real World with Minimal Human Effort, CORL 2020
 2. WCSAC: Worst-Case Soft Actor Critic for Safety-Constrained Reinforcement Learning.AAAI 2021.
 3. Safe off-policy deep reinforcement learning algorithm for volt-var control in power distribution systems. IEEE Transactions on Smart Grid 2019
-4. CONSERVATIVE SAFETY CRITICS FOR EXPLORATION, ICLR 2021
-
-     
-
-### Penalty based approaches (pros: Simple, stable, strong constraint sastisfcation, cons: Leads to suboptimal policies)
+4. Conservative Safety Critics for Exploration, ICLR 2021, ICLR 2021
+### 🟡 Penalty based approaches (pros: Simple, stable, strong constraint sastisfcation, cons: Leads to suboptimal policies)
 1. Ipo: Interior-point policy optimization under constraints, AAAI 2020
 2. Penalized proximal policy optimization for safe reinforcement learning,
 3. Log barriers for safe black-box optimization with application to safe reinforcement learning, JMLR 2024
 4. Constrained reinforcement learning with smoothed log barrier function,
 5. P2bpo: Permeable penalty barrier-based policy optimization for safe rl, AAAI 2024
-### Trust region based methods (pros: , cons: Oscillates around the constraint boundary with high overshoot)    
+### 🟡 Trust region based methods (pros: , cons: Oscillates around the constraint boundary with high overshoot)    
 1.  Constrained policy optimization. ICML, 2017
 2.  Projection-based constrained policy optimization
 3.  Embedding Safety into RL: A New Take on Trust Region Methods, ICML 2025
