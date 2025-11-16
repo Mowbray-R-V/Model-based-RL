@@ -118,8 +118,8 @@ Model-Based RL Types
 3. Imagine Within Practice: Conservative Rollout Length Adaptation for Model-Based Reinforcement Learning, 20224
 4. Planning and Learning with Adaptive Lookahead, AAAI 2023
    
-# ⭐Latent space models for POMDPS (High dimensional/Partial observable systems; common for vision based policies) 
-Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. They transform the POMDP (partial observability) into an MDP in latent space, enabling standard RL.  EX: Visual tasks (Atari, DMControl from pixels): the raw image doesn’t tell you velocity or hidden forces. Latent state encodes those quantities.
+# ⭐World models (Suitable for high dimensional/partia1 observable systems) 
+Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. They transform the POMDP (partial observability) into an MDP in latent space, enabling standard RL.  
 1. [POMDPs for Dummies](https://www.pomdp.org/tutorial/pomdp-solving.html)    
 2. World Models,  2018
 3. Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model, NIPs 2020 (**SAC for POMDPs**)
