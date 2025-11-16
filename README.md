@@ -140,7 +140,7 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 
 ---
 
-# ⭐SafeRL
+# ⭐ SafeRL
 1. Javier Garc´ıa, Fern, and o Fern´andez. A comprehensive survey on safe reinforcement learning. JMLR, 2015.
 2. Lukas Brunke, Melissa Greeff, Adam W Hall, Zhaocong Yuan, Siqi Zhou, Jacopo Panerati, and Angela P Schoellig. Safe learning in robotics: From learning-based control to safe reinforcement
  learning. Annual Review of Control, Robotics, and Autonomous Systems, 2022.
@@ -193,15 +193,18 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 9. Data-Efficient Safe Reinforcement Learning Algorithm, ALA Workshop @ AAMAS 2022  
 
 
-# ⭐Exploration-exploitaion dilemma in learned estimates  
-The exploration–exploitation dilemma is a general principle that applies to any estimation problem where decisions must be made under uncertainty. The specific strategy depends on what you are uncertain about.
-<img width="1090" height="325" alt="image" src="https://github.com/user-attachments/assets/2e9519e6-fae7-45be-b7bc-f43c54b91f60" />
+# ⭐ ## Exploration–Exploitation Dilemma in Learned Estimates  
+The exploration–exploitation dilemma arises whenever decisions must be made under uncertainty. In model-based RL, the specific exploration strategy depends on the **type of uncertainty**—whether it comes from limited data (epistemic) or inherent stochasticity in the environment (aleatoric).
+1. [Exploration and Exploitation-10703 Deep Reinforcement Learning	and	Control](https://www.cs.cmu.edu/~rsalakhu/10703/Lectures/Lecture_Exploration.pdf)    
+
+
+<img width="900" height="225" alt="image" src="https://github.com/user-attachments/assets/2e9519e6-fae7-45be-b7bc-f43c54b91f60" />
 <img width="1383" height="535" alt="image" src="https://github.com/user-attachments/assets/26252ebe-13ef-4bc3-8a07-a45e88430826" />
 
 
 
 
-1. [Exploration and Exploitation-10703 Deep Reinforcement Learning	and	Control](https://www.cs.cmu.edu/~rsalakhu/10703/Lectures/Lecture_Exploration.pdf)    
+
 ## Naïve random exploration (best suited for tabular data, compute costly for large dimensional problem)
 1. ε-greedy → Watkins (1989), Sutton & Barto (1998/2018).
 2. Softmax/Boltzmann → Sutton & Barto, Kaelbling et al. (1996), Thrun (1992).
