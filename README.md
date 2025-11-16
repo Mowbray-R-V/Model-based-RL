@@ -133,33 +133,12 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 13. Data-efficient model-based reinforcement learning with trajectory discrimination, springer 2024
 14. Offline Reinforcement Learning from Images with Latent Space Models, 2020  (**OMPO**)
 15. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024
-16. Planning to Explore via Self-Supervised World Models, ICML 2020            
+16. Planning to Explore via Self-Supervised World Models, ICML 2020
+17. Daydreamer: World models for physical robot learning, CORL 2023
+18. Mastering diverse control tasks through world models, Nature 2025 (**DreamerV3**)
+19. Training Agents Inside of Scalable World Models, 2025 (**DreamerV4**) 
 
-
-
-
-# ⭐Model error 
-1. Investigating Compounding Prediction Errors in Learned Dynamics Models    
-2. PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias: accumulation of singel step model error systematically over time.)    
-3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
-   
-
-
- 
-
-
-# ⭐Neat history - check related works in 
-1. Modified PETS
-2. Trust the Model Where It Trusts Itself- Model-Based Actor-Critic with Uncertainty-Aware Rollout Adaption
-3. On Rollouts in Model-Based Reinforcement Learning
-
-# ⭐Model Calibration
-1. A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
-2. M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
-3.   Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020        
-4. Accurate Uncertainties for Deep Learning Using Calibrated Regression, ICML 2018
-5. Near-optimal Regret Bounds for Reinforcement Learning,  NIPS 2009 (Error radius is learned from data (concentration inequalities → Hoeffding, Bernstein, GP posteriors))      
-
+    
 # ⭐SafeRL
 1. Javier Garc´ıa, Fern, and o Fern´andez. A comprehensive survey on safe reinforcement learning. JMLR, 2015.
 2. Lukas Brunke, Melissa Greeff, Adam W Hall, Zhaocong Yuan, Siqi Zhou, Jacopo Panerati, and Angela P Schoellig. Safe learning in robotics: From learning-based control to safe reinforcement
@@ -287,12 +266,30 @@ The exploration–exploitation dilemma is a general principle that applies to an
 3. A Unified View on Solving Objective Mismatch in Model Based Reinforcement Learning
 
 
-# ⭐Dreamer world model based papers
-1. Mastering diverse control tasks through world models, Nature 2025
-2. Daydreamer: World models for physical robot learning, CORL 2023
-3. Mastering Atari With Discrete World Models, ICLR 2021
-4. Dream To Control: Learning Behaviours by Latent Imagination, ICLR 2020
+
+
+
+# ⭐Model error 
+1. Investigating Compounding Prediction Errors in Learned Dynamics Models    
+2. PILCO: A Model-Based and Data-Effcient Approach to Policy Search, ICML 2011 (Model bias: accumulation of singel step model error systematically over time.)    
+3. Plan To Predict: Learning an Uncertainty-Foreseeing Model for Model-Based Reinforcement Learning, NIPS 2022 (single-step vs multi-step prediction loss)
+   
+
+
  
+
+
+# ⭐Neat history - check related works in 
+1. Modified PETS
+2. Trust the Model Where It Trusts Itself- Model-Based Actor-Critic with Uncertainty-Aware Rollout Adaption
+3. On Rollouts in Model-Based Reinforcement Learning
+
+# ⭐Model Calibration
+1. A. P. Dawid. The well-calibrated Bayesian. Journal of the American Statistical Association, 1982
+2. M. H. DeGroot and S. E. Fienberg. The comparison and evaluation of forecasters. The statistician, 1983.
+3.   Efficient Model-Based Reinforcement Learning through Optimistic Policy Search and Planning, NIPS 2020        
+4. Accurate Uncertainties for Deep Learning Using Calibrated Regression, ICML 2018
+5. Near-optimal Regret Bounds for Reinforcement Learning,  NIPS 2009 (Error radius is learned from data (concentration inequalities → Hoeffding, Bernstein, GP posteriors))      
 
 
 # ⭐GP model based control papers 
