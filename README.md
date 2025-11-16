@@ -27,7 +27,7 @@ You are welcome to contribute! If you find a paper that is not yet included, ple
 12. [World Models ICLR 2025 workshop](https://iclr.cc/virtual/2025/workshop/24000)
 13. [Safe-Reinforcement-Learning-Baselines](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines)
 
-# ⭐ Model-Based Reinforcement Learning Types based on *how imagined rollouts or model predictions are used* during learning or decision-making.
+# ⭐ Categorgies of MBRL algorithms based on how imagined rollouts used during learning/decision-making
 
 Model-Based RL Types   
 ├── A. Background Planning (Offline)  
