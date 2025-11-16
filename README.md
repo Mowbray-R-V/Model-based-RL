@@ -27,6 +27,8 @@ You are welcome to contribute! If you find a paper that is not yet included, ple
 12. [World Models ICLR 2025 workshop](https://iclr.cc/virtual/2025/workshop/24000)
 13. [Safe-Reinforcement-Learning-Baselines](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines)
 
+---
+
 # ⭐ Model-Based Reinforcement Learning Types based on *how imagined rollouts or model predictions are used* during learning or decision-making.
 
 Model-Based RL Types   
@@ -39,7 +41,7 @@ Model-Based RL Types
     ├── B1. Tree Search / Lookahead Planning   
     └── B2. Shooting-Based Trajectory Optimization  
 
----
+
 # ⭐ A. Background Planning(Offline reactive policy search)
 ## 🔹 A1. Policy Training(Dyna-style updates)- Synthetic rollouts are added to the replay buffer to accelerate policy learning
 1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
@@ -69,34 +71,6 @@ Model-Based RL Types
 <img width="900" alt="Model-Based RL Overview Diagram" src="https://github.com/user-attachments/assets/209ae004-e7e5-42ab-a4a1-834ef5260c11">
 
 ---
-
-  
-
-
-# ⭐ Types
-# ⭐ Background planning (offline reactive policy search )
-## Policy training (Dyna-style updates): Synthetic rollouts are added to the replay buffer to augment real experience and accelerate policy learning.
-1. Dyna, an integrated architecture for learning, planning, and reacting, ACM 1991 (**One-step rollout**)
-2. Algorithmic framework for model-based deep reinforcement learning with theoretical guarantees, ICLR 2019 (**Multi-step rollout**)
-4. When to trust your model: Model-based policy optimization, ICML  2019 (**Multi-step rollout**)
-## Backpropagation through time (exploits model derivatives)
-1. PILCO: A Model-Based and Data-Efficient Approach to Policy Search, ICML 2011  (**Greedy exploration**)
-## Improving value targets (Value Expansion): Rollouts extend the horizon of value backups to provide more accurate temporal difference (TD) targets. (not stored in buffer)    
-1. Model-based value estimation for efficient model-free reinforcement learning, 2018
-2. Sample-efficient reinforcement learning with stochastic ensemble value expansion, NIPS 2018
-## Guiding decision-making (Imagination-based): Rollouts are provided as auxiliary inputs or features to the policy, enabling it to reason about imagined futures.
-1. Imagination-augmented agents for deep reinforcement learning, NIPS 2017  
-# ⭐ Decsion-time planning
-## Planning / Tree search: Rollouts are explicitly used for lookahead planning, often with search algorithms.
-1. Mastering the game of Go without human knowledge. Nature 2017
-2. Mastering Atari, Go, chess and shogi by planning with a learned model. Nature 2020
-## Shooting algorithms
-1. Deep reinforcement learning in a handful of trials using probabilistic dynamics models, NIPS 2018
-2. Robust constrained model predictive control. 2005
-3.  Plan online, learn offline: Efficient learning and exploration via model-based control. ICLR, 2019. (**POLO**)
- <img width="989" height="341" alt="image" src="https://github.com/user-attachments/assets/209ae004-e7e5-42ab-a4a1-834ef5260c11" />
-
-
 # ⭐Adaptive rollout
 1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)
 2. Adaptive Rollout Length for Model-Based RL Using Model-Free Deep RL, 2022
