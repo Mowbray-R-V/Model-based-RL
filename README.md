@@ -110,13 +110,13 @@ Model-Based RL Types
 
 ----
 
-# ⭐Adaptive rollout
+# ⭐ Adaptive rollout
 1. Dynamic-Horizon Model-Based Value Estimation With Latent Imagination, IEEE TNLS 2024 (**MVE style algorithm with adaptive rollout in world model**)
 2. Adaptive Rollout Length for Model-Based RL Using Model-Free Deep RL, 2022
 3. Imagine Within Practice: Conservative Rollout Length Adaptation for Model-Based Reinforcement Learning, 20224
 4. Planning and Learning with Adaptive Lookahead, AAAI 2023
    
-# ⭐World models (for high dimensional/partial observable systems) 
+# ⭐ World models (for high dimensional/partial observable systems) 
 Latent state variables serve as a belief state ≈ agent’s best guess of the hidden true state. They transform the POMDP (partial observability) into an MDP in latent space, enabling standard RL.  
 1. [POMDPs for Dummies](https://www.pomdp.org/tutorial/pomdp-solving.html)    
 2. World Models,  2018
@@ -177,11 +177,11 @@ Latent state variables serve as a belief state ≈ agent’s best guess of the h
 2.  Projection-based constrained policy optimization
 3.  Embedding Safety into RL: A New Take on Trust Region Methods, ICML 2025
 
-# ⭐Gradient free optimisation (population based)
+# 🔹 Gradient free optimisation (population based)
 1. The Cross-Entropy Method for Combinatorial and Continuous Optimization, Methodology and Computing in Applied Probability, 1999
 2. The Cross-Entropy Method for Optimization. In Handbook of Statistics.
 3. Constrained cross-entropy method for safe reinforcement learning. NIPS 2018
-## CEM based SafeRL
+## 🔸 CEM based SafeRL
 1. SafeDreamer — Safe Reinforcement Learning with World Models, ICLR 2024  
 2. Safe Planning and Policy Optimization via World Model Learning (SPOWL), arXiv 2025  
 3. Safe Reinforcement Learning with Model Uncertainty Estimates, arXiv 2018  
